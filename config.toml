@@ -270,7 +270,7 @@ enableGitInfo = false
 
 [[menu.main]]
   name = "Open Case Studies"
-  url = "#posts_ocs"
+  url = "#casestudies"
   weight = 2
 
 [[menu.main]]
