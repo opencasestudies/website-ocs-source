@@ -28,7 +28,7 @@ the current list of available case studies:
 
 ## Use the Open Case Studies
 
-If you use one of the Open Case Studies in the classrom, 
+If you use one of the Open Case Studies in the classroom, 
 please use the digital object identifier (DOI) for the citation. 
 A link to the full citation is provided next to each case study. 
 
