@@ -24,14 +24,22 @@ weight = 4
 [Stephanie](http://www.stephaniehicks.com) is an 
 Assistant Professor at 
 [Johns Hopkins Bloomberg School of Public Health](https://www.jhsph.edu).
+She is a faculty member in the 
+[Johns Hopkins Data Science Lab](https://jhudatascience.org) and 
+teaches [Advanced Data Science](https://jhu-advdatasci.github.io/2018/).
+She is also creating a children's book featuring women statisticians
+and data scientists. 
 
-#### Leah Jager
+### Leah Jager
 
 <img src="/img/leah_jager.jpg" style="width:20%";/>
 
 Leah is an Assistant Scientist in the [Biostatistics Department](https://www.jhsph.edu/departments/biostatistics/index.html)
-at [Johns Hopkins Bloomberg School of Public Health](https://www.jhsph.edu). 
-
+at [Johns Hopkins Bloomberg School of Public Health](https://www.jhsph.edu) 
+where she teaches biostatistics to undergraduate and masters students 
+in Public Health. She has a strong interest in statistics education 
+and is currently studying how people interact with data with the goal
+of being able to teach them more effectively. 
 
 #### Margaret Taub
 
@@ -41,11 +49,22 @@ Margaret is an Assistant Scientist in the
 [Biostatistics Department](https://www.jhsph.edu/departments/biostatistics/index.html)
 at [Johns Hopkins Bloomberg School of Public Health](https://www.jhsph.edu). 
 
+#### Alexandra Stephens
 
-#### Alex Stephens
+<img src="/img/alexandra_stephens.jpg" style="width:20%";/>
 
-#### Ted Zhang
+Alexandra is a student at [Johns Hopkins University](https://www.jhu.edu)
+pursuing Bachelor of Science and Master of Science in Engineering degrees 
+in [Applied Mathematics and Statistics](https://engineering.jhu.edu/ams/).
 
-#### Perry Kuo
+#### Pei-Lun (Perry) Kuo
+
+#### Hanchao (Ted) Zhang
+
+<img src="/img/hanchao_zhang.jpg" style="width:20%";/>
+
+Hanchao is a student at [Johns Hopkins University](https://www.jhu.edu)
+pursuing Masters of Science in 
+[Applied Mathematics and Statistics](https://engineering.jhu.edu/ams/).
 
 
