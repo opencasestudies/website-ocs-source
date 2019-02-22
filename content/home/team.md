@@ -59,12 +59,12 @@ in [Applied Mathematics and Statistics](https://engineering.jhu.edu/ams/).
 
 #### Pei-Lun (Perry) Kuo
 
-#### Hanchao (Ted) Zhang
+<img src="/img/perry_kuo.jpg" style="width:20%";/>
 
-<img src="/img/hanchao_zhang.jpg" style="width:20%";/>
-
-Hanchao is a student at [Johns Hopkins University](https://www.jhu.edu)
-pursuing Masters of Science in 
-[Applied Mathematics and Statistics](https://engineering.jhu.edu/ams/).
+Perry is a student at [Johns Hopkins University](https://www.jhu.edu) 
+pursuing doctoral degree in 
+[Epidemiology](https://www.jhsph.edu/departments/epidemiology/index.html) 
+and master degree in 
+[Biostatistics](https://www.jhsph.edu/departments/biostatistics/).
 
 
