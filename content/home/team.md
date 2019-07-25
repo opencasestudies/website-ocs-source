@@ -49,22 +49,18 @@ Margaret is an Assistant Scientist in the
 [Biostatistics Department](https://www.jhsph.edu/departments/biostatistics/index.html)
 at [Johns Hopkins Bloomberg School of Public Health](https://www.jhsph.edu). 
 
-#### Alexandra Stephens
+#### Research Assistants 
 
-<img src="/img/alexandra_stephens.jpg" style="width:20%";/>
-
-Alexandra is a student at [Johns Hopkins University](https://www.jhu.edu)
-pursuing Bachelor of Science and Master of Science in Engineering degrees 
-in [Applied Mathematics and Statistics](https://engineering.jhu.edu/ams/).
-
-#### Pei-Lun (Perry) Kuo
-
-<img src="/img/perry_kuo.jpg" style="width:20%";/>
-
-Perry is a student at [Johns Hopkins University](https://www.jhu.edu) 
+- Pei-Lun (Perry) Kuo. Perry is a student at [Johns Hopkins University](https://www.jhu.edu) 
 pursuing doctoral degree in 
 [Epidemiology](https://www.jhsph.edu/departments/epidemiology/index.html) 
 and master degree in 
 [Biostatistics](https://www.jhsph.edu/departments/biostatistics/).
+- Kexin (Sheena) Wang. Sheena is pursing her Master of Science in Engineering degree in [Applied Mathematics and Statistics](https://engineering.jhu.edu/ams/) at [Johns Hopkins University](https://www.jhu.edu). 
+
+#### OCS Alumni 
+
+- Alexandra Stephens
+- Hanchao (Ted) Zhang
 
 
