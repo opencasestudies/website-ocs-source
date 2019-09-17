@@ -49,6 +49,10 @@ Margaret is an Assistant Scientist in the
 [Biostatistics Department](https://www.jhsph.edu/departments/biostatistics/index.html)
 at [Johns Hopkins Bloomberg School of Public Health](https://www.jhsph.edu). 
 
+#### Carrie Wright 
+
+
+
 #### Research Assistants 
 
 - Kexin (Sheena) Wang. Sheena is pursing her Master of Science in Engineering degree in [Applied Mathematics and Statistics](https://engineering.jhu.edu/ams/) at [Johns Hopkins University](https://www.jhu.edu). 
