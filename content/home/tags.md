@@ -1,5 +1,6 @@
 +++
 # Tag Cloud widget.
+<<<<<<< HEAD
 widget = "tag_cloud"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = false  # Activate this widget? true/false
@@ -19,4 +20,16 @@ subtitle = ""
   # Minimum and maximum font sizes (1.0 = 100%).
   font_size_min = 0.7
   font_size_max = 2.0
+=======
+widget = "tag_cloud"
+active = true
+date = 2017-09-20T00:00:00
+
+title = "Tags"
+subtitle = ""
+
+# Order that this section will appear in.
+weight = 65
+
+>>>>>>> 4a04b86153c28cd6e8ae21ca588419539ece42e4
 +++

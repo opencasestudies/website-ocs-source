@@ -5,6 +5,7 @@
 # Each configuration section is defined by a name in square brackets (e.g. `[outputs]`).
 
 # Title of your site
+<<<<<<< HEAD
 title = "Academic"
 
 # The URL of your site.
@@ -17,13 +18,35 @@ copyright = ""
 
 # Enable analytics by entering your Google Analytics tracking ID
 googleAnalytics = ""
+=======
+title = "LIBD rstats club"
+
+# The URL of your site.
+# End your URL with a `/` trailing slash, e.g. `https://example.com/`.
+# baseurl = "http://lcolladotor.github.io/"
+baseurl = "http://LieberInstitute.github.io/rstatsclub/"
+
+# Enter a copyright notice to display in the site footer.
+# To display a copyright symbol, type `&copy;`. For current year, type `{year}`.
+copyright = "&copy; 2018-{year}  under (CC) BY-NC-SA 4.0. All thoughts and opinions here are own own."
+
+# Enable analytics by entering your Google Analytics tracking ID
+googleAnalytics = "UA-115319001-1"
+
+# Enable comments by entering your Disqus shortname
+disqusShortname = "libd-rstats-club"
+>>>>>>> 4a04b86153c28cd6e8ae21ca588419539ece42e4
 
 ############################
 ## Advanced options below ##
 ############################
 
 # Name of Academic theme folder in `themes/`.
+<<<<<<< HEAD
 theme = "academic"
+=======
+theme = "hugo-academic"
+>>>>>>> 4a04b86153c28cd6e8ae21ca588419539ece42e4
 
 # Get last modified date for content from Git?
 enableGitInfo = false
@@ -32,11 +55,15 @@ enableGitInfo = false
 defaultContentLanguage = "en"
 hasCJKLanguage = false  # Set `true` for Chinese/Japanese/Korean languages.
 defaultContentLanguageInSubdir = false
+<<<<<<< HEAD
 removePathAccents = true  # Workaround for https://github.com/gohugoio/hugo/issues/5687
+=======
+>>>>>>> 4a04b86153c28cd6e8ae21ca588419539ece42e4
 
 paginate = 10  # Number of items per page in paginated lists.
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
+<<<<<<< HEAD
 ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [outputs]
@@ -49,6 +76,16 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
 [outputFormats.WebAppManifest]
   mediaType = "application/manifest+json"
   rel = "manifest"
+=======
+ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$", "README.md", "\\.Rproj$"]
+preserveTaxonomyNames = true
+
+[outputs]
+  home = [ "HTML", "CSS", "RSS", "JSON" ]
+  section = [ "HTML", "RSS" ]
+  taxonomy = [ "HTML", "RSS" ]
+  taxonomyTerm = [ "HTML", "RSS" ]
+>>>>>>> 4a04b86153c28cd6e8ae21ca588419539ece42e4
 
 # Configure BlackFriday Markdown rendering.
 #   See: https://gohugo.io/getting-started/configuration/#configure-blackfriday
@@ -57,15 +94,37 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
 	angledQuotes = false
 	latexDashes = true
   extensions = ["backslashLineBreak"]
+<<<<<<< HEAD
+=======
+  # fractions = false  # `false` disables smart fractions (e.g. 5/12 formatted as a fraction).
+#   smartypants = false  # `false` disables all smart punctuation substitutions (e.g. smart quotes, dashes, fractions).
+>>>>>>> 4a04b86153c28cd6e8ae21ca588419539ece42e4
 
 [imaging]
   resampleFilter = "lanczos"
   quality = 90
   anchor = "smart"  # Anchor for cropping. Options include Smart and Center.
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> 4a04b86153c28cd6e8ae21ca588419539ece42e4
 # Taxonomies.
 [taxonomies]
   tag = "tags"
   category = "categories"
   publication_type = "publication_types"
   author = "authors"
+<<<<<<< HEAD
+=======
+  
+# # Link custom CSS and JS assets
+# #   (relative to /static/css and /static/js respectively)
+# custom_css = []
+# custom_js  = []
+
+# disablePathToLower = false
+relativeurls = true
+canonifyurls = true
+
+>>>>>>> 4a04b86153c28cd6e8ae21ca588419539ece42e4

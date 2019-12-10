@@ -1,6 +1,7 @@
 # SITE SETUP
 # Documentation: https://sourcethemes.com/academic/
 
+<<<<<<< HEAD
 ############################
 ## Theme
 ############################
@@ -67,12 +68,50 @@ math = false
 # Enable diagram rendering? true/false
 #   If false, you can enable diagrams on a per page basis as needed.
 diagram = false
+=======
+# Color theme.
+#   Choose from `default`, `ocean`, `forest`, `dark`, `apogee`, `1950s`, `coffee`, `cupcake`.
+# color_theme = "default"
+color_theme = "libd"
+# Enable users to switch between day and night mode?
+day_night = true
+
+# Font style.
+#   Choose from `default`, `classic`, or `playfair`.
+font = "karmamina"
+
+# Description for social sharing and search engines. If undefined, superuser role is used in place.
+description = ""
+
+# Default image for social sharing and search engines. Place image in `static/img/` folder and specify image name here.
+sharing_image = ""
+
+# Twitter username (without @). Used when a vistor shares your site on Twitter.
+twitter = "LIBDrstats"
+
+# Diplay a logo in navigation bar rather than title (optional).
+#   To enable, place an image in `static/img/` and reference its filename below. To disable, set the value to "".
+logo = "logo.png"
+
+# Enable global source code highlighting? true/false
+# Documentation: https://sourcethemes.com/academic/docs/writing-markdown-latex/#highlighting-options
+highlight = true
+highlight_languages = ["r", "bash", "python", "stata"]  # Add support for highlighting additional languages
+# highlight_style = "atom-one-dark"
+highlight_style = "github"
+# highlight_style = "github"  # For supported styles, see https://cdnjs.com/libraries/highlight.js/
+
+# Enable global LaTeX math rendering?
+#   If false, you can enable it locally on a per page basis.
+math = true
+>>>>>>> 4a04b86153c28cd6e8ae21ca588419539ece42e4
 
 # Privacy pack
 #   Show a cookie consent message to visitors
 #   Anonymize IP in Google Analytics (if enabled)
 privacy_pack = false
 
+<<<<<<< HEAD
 # Enable visitors to edit pages?
 #   `repo` defines the repository URL. `editable` defines which page types can be edited.
 edit_page = {repo_url = "https://github.com/gcushen/hugo-academic", repo_branch = "master", editable = {docs = true, page = false, post = false}}
@@ -142,6 +181,72 @@ list_delimiter = ", "
 
 ############################
 ## Advanced
+=======
+# Date and time format (refer to https://sourcethemes.com/academic/docs/customization/#date-format )
+#   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
+date_format = "Jan 2, 2006"
+#   Examples: "3:04 pm" or "15:04"
+time_format = "3:04 PM"
+
+############################
+## Contact Widget setup   ##
+############################
+
+# Enter contact details (optional). To hide a field, clear it to "".
+email = "lcolladotor@gmail.com"
+address = "855 N. Wolfe Street, Suite 300, Baltimore MD 21205, United States"
+phone = "+1-410-955-1000"
+
+# Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
+office_hours = ""
+
+# Enter an optional link for booking appointments (e.g. calendly.com).
+appointment_url = ""
+
+# Contact links
+#   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
+contact_links = [
+  {icon = "twitter", icon_pack = "fab", name = "Twitter", link = "https://twitter.com/LIBDrstats"},
+  # {icon = "skype", icon_pack = "fab", name = "Skype Me", link = "skype:echo123?call"},
+  # {icon = "keybase", icon_pack = "fab", name = "Chat on Keybase", link = "https://keybase.io/"},
+  # {icon = "comments", icon_pack = "fas", name = "Discuss on Forum", link = "https://discourse.gohugo.io"},
+  # {icon = "telegram", icon_pack = "fab", name = "Telegram Me", link = "https://telegram.me/@Telegram"},
+  ]
+
+# Display a map.
+# To show your address on a map in the contact widget, you need to enter your latitude, longitude and choose
+# a map provider below.
+# To use Google Maps, set `map = 1` and enter your API key that can be obtained here:
+#   https://developers.google.com/maps/documentation/javascript/get-api-key
+# To use OpenStreetMap tiles, set `map = 2`.
+# To use OpenStreetMap on a high traffic site, set `map = 3` and enter your API key that can be obtained here:
+#   https://www.mapbox.com/studio/account/tokens
+# To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
+#
+# Map provider:
+#   0: No map
+#   1: Google Maps
+#   2: OpenStreetMap (Mapnik)
+#   3: OpenStreetMap (Mapbox)
+map = 2
+map_api_key = ""
+latitude = "39.300141"
+longitude = "-76.590743"
+zoom = 15
+
+############################
+## Plugins                ##
+############################
+
+# Load CSS and JS plugins
+#   E.g. To load `/assets/css/custom.css`, set `plugins_css = ["custom"]`.
+#   E.g. To load `/assets/js/custom.js`, set `plugins_js = ["custom"]`.
+plugins_css = []
+plugins_js  = []
+
+############################
+## Advanced options       ##
+>>>>>>> 4a04b86153c28cd6e8ae21ca588419539ece42e4
 ############################
 
 # Get user avatars from Gravatar.com? (true/false)
@@ -153,27 +258,47 @@ menu_align_right = false
 # Show estimated reading time for posts? (true/false)
 reading_time = true
 
+<<<<<<< HEAD
 # Display next/previous section pager? (true/false)
 section_pager = false
 docs_section_pager = true  # Display pager in Docs layout (e.g. tutorials)?
+=======
+# Display comment count (if commenting enabled in config.toml)? (true/false)
+comment_count = true
+
+# Display next/previous section pager? (true/false)
+section_pager = false
+>>>>>>> 4a04b86153c28cd6e8ae21ca588419539ece42e4
 
 # Enable in-built social sharing buttons? (true/false)
 sharing = true
 
+<<<<<<< HEAD
 # Load CSS and JS plugins
 #   E.g. To load `/assets/css/custom.css`, set `plugins_css = ["custom"]`.
 #   E.g. To load `/assets/js/custom.js`, set `plugins_js = ["custom"]`.
 plugins_css = []
 plugins_js  = []
 
+=======
+>>>>>>> 4a04b86153c28cd6e8ae21ca588419539ece42e4
 # Configuration of publication pages.
 [publications]
   # Date format (refer to https://sourcethemes.com/academic/docs/customization/#date-format )
   #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
+<<<<<<< HEAD
   date_format = "January 2006"
 
   # Citation style ("apa" or "mla")
   citation_style = "apa"
+=======
+  date_format = "2006-01-02"
+  #   Examples: "3:04 pm" or "15:04"
+  time_format = "3:04 PM"
+
+  # Citation style ("apa" or "mla")
+  citation_style = "mla"
+>>>>>>> 4a04b86153c28cd6e8ae21ca588419539ece42e4
 
 # Configuration of project pages.
 [projects]
@@ -185,6 +310,7 @@ plugins_js  = []
   post_view = 2
   publication_view = 2
   talk_view = 2
+<<<<<<< HEAD
 
 ############################
 ## Comments
@@ -207,6 +333,18 @@ plugins_js  = []
 ############################
 ## Search
 ############################
+=======
+  
+  # List publications and talks related to the project?
+  # list_children = true
+#
+# [talks]
+#   # Show talk time?
+#   time = true
+#
+
+# Search.
+>>>>>>> 4a04b86153c28cd6e8ae21ca588419539ece42e4
 [search]
   # Search provider:
   #   0: No search engine
@@ -222,6 +360,7 @@ plugins_js  = []
     index_name = ""
     show_logo = false
 
+<<<<<<< HEAD
 ############################
 ## Maps
 ############################
@@ -243,3 +382,8 @@ plugins_js  = []
   engine = 0
   api_key = ""
   zoom = 15
+=======
+
+[permalinks]
+  post = "/:year/:month/:day/:slug"
+>>>>>>> 4a04b86153c28cd6e8ae21ca588419539ece42e4

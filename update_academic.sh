@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+<<<<<<< HEAD
 # Source Themes Academic: Theme updater
 # Checks for available updates and then asks to install any updates.
 # https://sourcethemes.com/academic/
@@ -35,11 +36,15 @@ echo -e "Source Themes Academic v$version\n"
 
 # Display available updates
 echo -e "Checking for updates...\n"
+=======
+# Display available updates to Academic.
+>>>>>>> 4a04b86153c28cd6e8ae21ca588419539ece42e4
 cd themes/academic
 git fetch
 git log --pretty=oneline --abbrev-commit --decorate HEAD..origin/master
 cd ../../
 
+<<<<<<< HEAD
 title="Do you wish to install the above updates?"
 prompt="Choose an option and press Enter:"
 options=("Yes" "No")
@@ -53,3 +58,7 @@ select opt in "${options[@]}"; do
         * ) break;;
     esac
 done
+=======
+# Update Academic.
+git submodule update --remote --merge
+>>>>>>> 4a04b86153c28cd6e8ae21ca588419539ece42e4
