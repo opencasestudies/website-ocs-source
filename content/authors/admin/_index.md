@@ -1,75 +1,34 @@
----
-# Display name
-name: Nelson Bighetti
++++
 
-# Username (this should match the folder name)
-authors:
-- admin
+# Display name
+name = "Open Case Studies"
+ 
+ # Username (this should match the folder name)
+authors = ["admin"]
 
 # Is this the primary user of the site?
-superuser: true
+superuser = "yes"
++++
 
-# Role/position
-role: Professor of Artificial Intelligence
+## The OCS project
 
-# Organizations/Affiliations
-organizations:
-- name: Stanford University
-  url: ""
+### What problem are we addressing? 
 
-# Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+An increase in demand for gateway training in statistics, biostatistics, and data science has led to changes in curriculum, specifically an increase in computing. While this has led to more applied courses, students still struggle with effectively deriving knowledge from data. This is primarily because (i) these courses frequently fail to frame the lectures around a real-world application; (ii) quantitative methods are typically illustrated with an unrealistically clean data set that fits the assumptions of the method in an equally unrealistic way. When students use this approach to solve problems in the real-world, they are unable to identify the most appropriate methodological approach when it is not spoon fed. 
 
-interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+### Problems with previously suggested solutions
 
-education:
-  courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+In 1999, [Nolan and Speed](https://www.stat.berkeley.edu/users/statlabs/) argued the solution was to teach courses through in-depth case studies derived from interesting problems, with nontrivial solutions that leave room for different analyses. This innovative framework teaches the student to make important connections between the scientific question, data and statistical concepts that only come from hands-on experience analyzing data. However, these case studies based on realistic challenges, not toy examples, are scarce. 
 
-# Social/Academic Networking
-# For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
-#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "#contact" for contact widget.
-social:
-- icon: envelope
-  icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-- icon: github
-  icon_pack: fab
-  link: https://github.com/gcushen
-# Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
+### What are we proposing as a solution?
 
-# Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ""
-  
-# Organizational groups that you belong to (for People widget)
-#   Set this to `[]` or comment out if you are not using People widget.  
-user_groups:
-- Researchers
-- Visitors
----
+To address this, we are developing the `opencasestudies` educational resource of case studies, which demonstrate illustrative data analyses that can be used in the classroom to teach students how to effectively derive knowledge from data. This approach has successfully been used to [teach data science](https://amstat.tandfonline.com/doi/abs/10.1080/00031305.2017.1356747#.XDZCzS3MxTY) courses at many universities, including: 
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+* [Johns Hopkins Bloomberg School of Public Health](https://jhu-advdatasci.github.io/2018/)
+* [Harvard University](http://cs109.github.io/2014/)
+* [Harvard T.H. Chan School of Public Health](http://datasciencelabs.github.io/2016/)
+* [University of California at Berkeley](http://rdatasciencecases.org)
+* [Smith College](https://www.tandfonline.com/doi/pdf/10.1080/00031305.2015.1081105)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+
+

@@ -4,24 +4,51 @@
 #   The weight parameter defines the order that the links will appear in.
 
 [[main]]
-  name = "Home"
+  name = "About"
   url = "#about"
   weight = 10
 
 [[main]]
-  name = "Posts"
-  url = "#posts"
+  name = "Open Case Studies"
+  url = "#ocs"
   weight = 20
 
 [[main]]
-  name = "Projects"
-  url = "#projects"
+  name = "OCS Table Search"
+  url = "#DTtable"
   weight = 30
 
+
+#[[main]]
+#  name = "Data Science search"
+#  url = "#projects"
+#  weight = 35
+
+#[[main]]
+#  name = "Stats search"
+#  url = "#statsprojects"
+#  weight = 36
+
 [[main]]
-  name = "Publications"
-  url = "#featured"
+  name = "OCS search"
+  url = "#contextprojects"
+  weight = 37
+
+[[main]]
+  name = "Blog"
+  url = "#posts"
   weight = 40
+
+
+[[main]]
+  name = "Team"
+  url = "#team"
+  weight = 50
+
+[[main]]
+  name = "Talks"
+  url = "#talks"
+  weight = 55
 
 [[main]]
   name = "Contact"

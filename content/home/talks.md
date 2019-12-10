@@ -47,8 +47,9 @@ subtitle = ""
   #   Any HTML color name or Hex value is valid.
 
   # Background color.
-  # color = "navy"
-  
+   #color = "#404788FF"
+   color = "#440154FF"
+   
   # Background gradient.
   # gradient_start = "DeepSkyBlue"
   # gradient_end = "SkyBlue"
@@ -58,7 +59,7 @@ subtitle = ""
   # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
 
   # Text color (true=light or false=dark).
-  # text_color_light = true  
+   text_color_light = true  
   
 [advanced]
  # Custom CSS. 
@@ -67,3 +68,9 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
+
+### 2019
+
+- [Addressing Public Health Challenges through Data Science Education](https://docs.google.com/presentation/d/1emK1ORCmRaJLYDYwWPGhaqNRY2D8cdem_EIFmCmqS00/edit?usp=sharing). [American Public Health Association Annual Meeting. 2019 Nov 2-6. Philadelphia, PA, USA.](https://www.apha.org/annualmeeting) <b> Stephanie Hicks </b>
+
+- Motivating Data Science through Case Studies in Public Health. [Eastern North American Region (ENAR) Meeting of the International Biometric Society. 2019 March 27. Philadelphia, PA, USA. ](https://www.biometricsociety.org/region/eastern-north-american/)   <b> Leah Jager </b>
