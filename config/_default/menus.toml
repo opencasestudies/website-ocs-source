@@ -1,0 +1,44 @@
+# Navigation Links
+#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
+#     desired widget in your `content/home/` folder.
+#   The weight parameter defines the order that the links will appear in.
+
+# # Align the main menu to the right of the page? (true/false)
+# align_right = true
+
+[[main]]
+  name = "Home"
+  url = "#about"
+  weight = 1
+
+[[main]]
+  name = "Blog"
+  url = "#posts"
+  weight = 2
+
+[[main]]
+  name = "People"
+  url = "#people"
+  weight = 3
+
+# [[main]]
+#   name = "Tags"
+#   url = "#tags"
+#   weight = 5
+
+[[main]]
+  name = "Code of conduct"
+  url = "#coc"
+  weight = 4
+
+[[main]]
+  name = "Contact"
+  url = "#contact"
+  weight = 5
+
+# Link to a PDF of your resume/CV from the menu.
+# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
+# [[main]]
+#    name = "CV"
+#    url = "files/cv.pdf"
+#    weight = 70
