@@ -3,7 +3,6 @@
 #     desired widget in your `content/home/` folder.
 #   The weight parameter defines the order that the links will appear in.
 
-<<<<<<< HEAD
 [[main]]
   name = "About"
   url = "#about"
@@ -34,20 +33,10 @@
   name = "OCS search"
   url = "#contextprojects"
   weight = 37
-=======
-# # Align the main menu to the right of the page? (true/false)
-# align_right = true
-
-[[main]]
-  name = "Home"
-  url = "#about"
-  weight = 1
->>>>>>> 4a04b86153c28cd6e8ae21ca588419539ece42e4
 
 [[main]]
   name = "Blog"
   url = "#posts"
-<<<<<<< HEAD
   weight = 40
 
 
@@ -60,33 +49,11 @@
   name = "Talks"
   url = "#talks"
   weight = 55
-=======
-  weight = 2
-
-[[main]]
-  name = "People"
-  url = "#people"
-  weight = 3
-
-# [[main]]
-#   name = "Tags"
-#   url = "#tags"
-#   weight = 5
-
-[[main]]
-  name = "Code of conduct"
-  url = "#coc"
-  weight = 4
->>>>>>> 4a04b86153c28cd6e8ae21ca588419539ece42e4
 
 [[main]]
   name = "Contact"
   url = "#contact"
-<<<<<<< HEAD
   weight = 60
-=======
-  weight = 5
->>>>>>> 4a04b86153c28cd6e8ae21ca588419539ece42e4
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
