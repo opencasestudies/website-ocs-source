@@ -1,5 +1,4 @@
 +++
-<<<<<<< HEAD
 # A Demo section created with the Blank widget.
 # Any elements can be added in the body: https://sourcethemes.com/academic/docs/writing-markdown-latex/
 # Add more sections by duplicating this file and customizing to your requirements.
@@ -53,19 +52,6 @@ subtitle = ""
 +++
 
 # The OCS project 
-=======
-# About/Biography widget.
-widget = "about"
-active = true
-date = 2016-04-20T00:00:00
-
-# Order that this section will appear in.
-weight = 1
-
-+++
-
-# The OCS project
->>>>>>> 4a04b86153c28cd6e8ae21ca588419539ece42e4
 
 ## What problem are we addressing? 
 
@@ -77,11 +63,7 @@ In 1999, [Nolan and Speed](https://www.stat.berkeley.edu/users/statlabs/) argued
 
 ## What are we proposing as a solution?
 
-<<<<<<< HEAD
 To address this, we are developing the <b> opencasestudies </b> educational resource of case studies, which demonstrate illustrative data analyses that can be used in the classroom to teach students how to effectively derive knowledge from data. This approach has successfully been used to [teach data science](https://amstat.tandfonline.com/doi/abs/10.1080/00031305.2017.1356747#.XDZCzS3MxTY) courses at many universities, including: 
-=======
-To address this, we are developing the `opencasestudies` educational resource of case studies, which demonstrate illustrative data analyses that can be used in the classroom to teach students how to effectively derive knowledge from data. This approach has successfully been used to [teach data science](https://amstat.tandfonline.com/doi/abs/10.1080/00031305.2017.1356747#.XDZCzS3MxTY) courses at many universities, including: 
->>>>>>> 4a04b86153c28cd6e8ae21ca588419539ece42e4
 
 * [Johns Hopkins Bloomberg School of Public Health](https://jhu-advdatasci.github.io/2018/)
 * [Harvard University](http://cs109.github.io/2014/)
@@ -91,7 +73,3 @@ To address this, we are developing the `opencasestudies` educational resource of
 
 
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 4a04b86153c28cd6e8ae21ca588419539ece42e4
