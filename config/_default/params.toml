@@ -121,7 +121,7 @@ email = "shicks19@jhu.edu"
 ############################
 
 # Default image for social sharing and search engines. Place image in `static/img/` folder and specify image name here.
-sharing_image = "logo.png"
+sharing_image = "logo_tab.png"
 
 # Twitter username (without @). Used when a visitor shares your site on Twitter.
 # twitter = ""
