@@ -58,16 +58,17 @@ subtitle = ""
 We are actively working on creating case studies and this is
 the current list of available case studies:   
 
-- Exploring health expenditure in the United States:  [[description and citation](https://github.com/opencasestudies/ocs-healthexpenditure/blob/master/README.md)] [[case study](casestudies/ocs-healthexpenditure.html)] [[code](https://github.com/opencasestudies/ocs-healthexpenditure)] [![DOI](https://zenodo.org/badge/151142096.svg)](https://zenodo.org/badge/latestdoi/151142096)
+- Exploring health expenditure in the United States:  [[description and citation](https://github.com/opencasestudies/ocs-healthexpenditure/blob/master/README.md)] [[case study](https://opencasestudies.github.io/ocs-healthexpenditure/ocs-healthexpenditure.html)] [[code](https://github.com/opencasestudies/ocs-healthexpenditure)] [![DOI](https://zenodo.org/badge/151142096.svg)](https://zenodo.org/badge/latestdoi/151142096)
 
-- Examine relationship between fatal police shootings and firearm legislation in the United States: [[description and citation](https://github.com/opencasestudies/ocs-police-shootings-firearm-legislation/blob/master/README.md)] [[case study](casestudies/ocs-police-shootings-firearm-legislation.html)] [[code](https://github.com/opencasestudies/ocs-police-shootings-firearm-legislation)] [![DOI](https://zenodo.org/badge/151612152.svg)](https://zenodo.org/badge/latestdoi/151612152)
+- Examine relationship between fatal police shootings and firearm legislation in the United States: [[description and citation](https://github.com/opencasestudies/ocs-police-shootings-firearm-legislation/blob/master/README.md)] [[case study](https://opencasestudies.github.io/ocs-police-shootings-firearm-legislation/ocs-police-shootings-firearm-legislation.html)] [[code](https://github.com/opencasestudies/ocs-police-shootings-firearm-legislation)] [![DOI](https://zenodo.org/badge/151612152.svg)](https://zenodo.org/badge/latestdoi/151612152)
 
+<!---
 ## Case Studies In progress
 - Evaluating opioid perscription in the United States:  [[description](https://github.com/opencasestudies/ocs-opiod-medicare/blob/master/README.md)] [[case study](https://opencasestudies.github.io//ocs-opioid-medicare//ocs-opioid-medicare.html)] [[code](https://github.com/opencasestudies/ocs-opioid-medicare)] 
 
 - Exploring the relationship between risk factors and hypertension: [[description](https://opencasestudies.github.io//ocs-hypertension-diet/)] [[case study](https://opencasestudies.github.io//ocs-hypertension-diet/ocs-hypertension-diet.html)] [[code](https://github.com/opencasestudies/ocs-hypertension-diet)] )
 
-
+-->
 
 
 ## Use the Open Case Studies
