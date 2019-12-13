@@ -41,12 +41,12 @@ user_groups = ["Faculty"]
 
 [[education.courses]]
   course = "BS in Biology"
-  institution = "University of New Mexico School"
+  institution = "University of New Mexico"
   year = 2009
   
 [[education.courses]]
   course = "BA in Chemistry"
-  institution = "University of New Mexico School"
+  institution = "University of New Mexico"
   year = 2009
 
 # Social/Academic Networking
