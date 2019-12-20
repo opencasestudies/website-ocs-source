@@ -8,7 +8,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 1  # Order that this section will appear.
 
-title = "OpenCaseStudies"
+title = "Open Case Studies"
 subtitle = ""
 
 [design]
@@ -51,11 +51,13 @@ subtitle = ""
  css_class = ""
 +++
 
-# The OCS project 
+## What is the Open Case Studies (OCS) project? 
+
+The Open Case Studies project is an educational resource that educators can use in the classroom to teach students how to effectively derive knowledge from data in real-world challenges. 
 
 ## What problem are we addressing? 
 
-An increase in demand for gateway training in statistics, biostatistics, and data science has led to changes in curriculum, specifically an increase in computing. While this has led to more applied courses, students still struggle with effectively deriving knowledge from data. This is primarily because (i) these courses frequently fail to frame the lectures around a real-world application; (ii) quantitative methods are typically illustrated with an unrealistically clean data set that fits the assumptions of the method in an equally unrealistic way. When students use this approach to solve problems in the real-world, they are unable to identify the most appropriate methodological approach when it is not spoon fed. 
+Despite unprecedented and growing interest in data science on campuses, there are few courses and course materials that provide meaningful opportunity for students to learn about real-world challenges. Most courses frequently fail to frame the lectures around a real-world application and provide unrealistically clean data sets that fit the assumptions of the methods in an unrealistic way. The result is that students are left unable to effectively analyze data and solve real-world challenges outside of the classroom.
 
 ## Problems with previously suggested solutions
 
@@ -63,7 +65,7 @@ In 1999, [Nolan and Speed](https://www.stat.berkeley.edu/users/statlabs/) argued
 
 ## What are we proposing as a solution?
 
-To address this, we are developing the <b> opencasestudies </b> educational resource of case studies, which demonstrate illustrative data analyses that can be used in the classroom to teach students how to effectively derive knowledge from data. This approach has successfully been used to [teach data science](https://amstat.tandfonline.com/doi/abs/10.1080/00031305.2017.1356747#.XDZCzS3MxTY) courses at many universities, including: 
+To address this, we are developing the **Open Case Studies** educational resource of case studies, which demonstrate illustrative data analyses that can be used in the classroom to teach students how to effectively derive knowledge from data. This approach has successfully been used to [teach data science](https://amstat.tandfonline.com/doi/abs/10.1080/00031305.2017.1356747#.XDZCzS3MxTY) courses at many universities, including: 
 
 * [Johns Hopkins Bloomberg School of Public Health](https://jhu-advdatasci.github.io/2018/)
 * [Harvard University](http://cs109.github.io/2014/)

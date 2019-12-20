@@ -43,7 +43,7 @@ user_groups = ["Principal Investigator","Faculty"]
 [[education.courses]]
   course = "M.A. in Statistics"
   institution = "Rice University"
-  year = 2013
+  year = 2012
 
 [[education.courses]]
   course = "B.S. in Mathematics"
@@ -89,9 +89,8 @@ user_groups = ["Principal Investigator","Faculty"]
 
 +++
 
-Stephanie is an Assistant Professor in the [Biostatistics Department](https://www.jhsph.edu/departments/biostatistics/index.html)
+[Stephanie](https://www.stephaniehicks.com/) is an Assistant Professor in the [Biostatistics Department](https://www.jhsph.edu/departments/biostatistics/index.html)
 at the [Johns Hopkins Bloomberg School of Public Health](https://www.jhsph.edu). She is also a faculty member in the 
 [Johns Hopkins Data Science Lab](https://jhudatascience.org) and 
 teaches [Advanced Data Science](https://jhu-advdatasci.github.io/2018/).
-She is also creating a children's book featuring women statisticians
-and data scientists. 
+She is also a co-host of [The Corresponding Author](https://twitter.com/CorrespondAuth) podcast discussing all things academic data science. 

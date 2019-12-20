@@ -56,7 +56,7 @@ subtitle = ""
 ## Available Open Case Studies
 
 We are actively working on creating case studies and this is
-the current list of available case studies:   
+the current available list:
 
 - Exploring health expenditure in the United States:  [[description and citation](https://github.com/opencasestudies/ocs-healthexpenditure/blob/master/README.md)] [[case study](https://opencasestudies.github.io/ocs-healthexpenditure/ocs-healthexpenditure.html)] [[code](https://github.com/opencasestudies/ocs-healthexpenditure)] [![DOI](https://zenodo.org/badge/151142096.svg)](https://zenodo.org/badge/latestdoi/151142096)
 
