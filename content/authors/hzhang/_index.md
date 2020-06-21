@@ -13,10 +13,10 @@ role = ""
 
 # Organizations/Affiliations
 #    Separate multiple entries with a comma, using the form: [ {name="Org1", url=""}, {name="Org2", url=""} ].
-organizations = [ { name = "NYU School of Medicine", url = "https://med.nyu.edu" } ]
+organizations = [ { name = "NYU Grossman School of Medicine", url = "https://med.nyu.edu" } ]
 
 # Short bio (displayed in user profile at end of posts)
-bio = "Graduate Student at NYU School of Medicine"
+bio = "Graduate Student at NYU Grossman School of Medicine"
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 
@@ -25,7 +25,6 @@ bio = "Graduate Student at NYU School of Medicine"
 
 
  
-
   
 
   
@@ -49,10 +48,28 @@ user_groups = ["OCS Alumni"]
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 # For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 # form "mailto:your-email@example.com" or "#contact" for contact widget.
+
+[[social]]
+  icon = "envelope"
+  icon_pack = "fas"
+  link = "mailto:Hanchao.Zhang@nyu.edu"  # For a direct email link, use "mailto:test@example.org".
+  
+[[social]]
+  icon = "home"
+  icon_pack = "fas"
+  link = "https://hanchao-zhang.github.io/"
+
+[[social]]
+  icon = "github"
+  icon_pack = "fab"
+  link = "https://github.com/Hanchao-Zhang"
+  
 [[social]]
   icon = "linkedin"
   icon_pack = "fab"
   link = "https://www.linkedin.com/in/hanchao-ted-zhang-670105b7/"
+  
+
 
 +++
-Graduate student at [NYU School of Medicine, Sackler Institute of Graduate Biomedical Sciences](https://med.nyu.edu)
+Graduate student at [NYU Grossman School of Medicine, Sackler Institute of Graduate Biomedical Sciences](https://med.nyu.edu)
