@@ -71,6 +71,6 @@ subtitle = ""
 
 ### 2019
 
-- [Addressing Public Health Challenges through Data Science Education](https://docs.google.com/presentation/d/1emK1ORCmRaJLYDYwWPGhaqNRY2D8cdem_EIFmCmqS00/edit?usp=sharing). Hicks, Stephanie. [American Public Health Association Annual Meeting](https://www.apha.org/annualmeeting). 2019 Nov 2-6. Philadelphia, PA, USA.
+- [Addressing Public Health Challenges Through Data Science Education](https://docs.google.com/presentation/d/1emK1ORCmRaJLYDYwWPGhaqNRY2D8cdem_EIFmCmqS00/edit?usp=sharing). Hicks, Stephanie. [American Public Health Association Annual Meeting](https://www.apha.org/annualmeeting). 2019 Nov 2-6. Philadelphia, PA, USA.
 
 - Motivating Data Science through Case Studies in Public Health. [Eastern North American Region (ENAR) Meeting of the International Biometric Society](https://www.enar.org). Jager, Leah. 2019 March 27. Philadelphia, PA, USA.    
