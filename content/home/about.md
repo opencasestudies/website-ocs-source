@@ -57,7 +57,7 @@ The Open Case Studies project is an educational resource that educators can use 
 
 ## What problem are we addressing? 
 
-Despite unprecedented and growing interest in data science on campuses, there are few courses and course materials that provide meaningful opportunity for students to learn about real-world challenges. Most courses frequently fail to frame the lectures around a real-world application and provide unrealistically clean data sets that fit the assumptions of the methods in an unrealistic way. The result is that students are left unable to effectively analyze data and solve real-world challenges outside of the classroom.
+Despite unprecedented and growing interest in data science on campuses, there are few courses and course materials that provide meaningful opportunity for students to learn about real-world challenges. Most courses frequently fail to frame the lectures around a real-world application and provide unrealistically clean datasets that fit the assumptions of the methods in an unrealistic way. The result is that students are left unable to effectively analyze data and solve real-world challenges outside of the classroom.
 
 ## Problems with previously suggested solutions
 
