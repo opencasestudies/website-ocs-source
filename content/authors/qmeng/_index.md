@@ -1,9 +1,9 @@
 +++
 # Display name
-name = "Kexin (Sheena) Wang, MSE"
+name = "Qier Meng, BS"
 
 # Username (this should match the folder name)
-authors = ["kwang"]
+authors = ["qmeng"]
 
 # Is this the primary user of the site?
 superuser = false
@@ -19,25 +19,25 @@ organizations = [ { name = "Johns Hopkins Bloomberg School of Public Health", ur
 bio = " "
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email = "kwang63@jhu.edu"
+email = "qmeng11@jhmi.edu"
 
 # List (academic) interests or hobbies#interests = [ "Genomics", "Non-coding RNA", "Gene Expression", "R programming", "Biostatistics", "Visualization", "Education" ]
 
 # Organizational groups that you belong to (for People widget)
 # Set this to [] or comment out if you are not using People widget.
-user_groups = ["OCS Alumni"]
+user_groups = ["Research Assistants"]
 
 # List qualifications (such as academic degrees)
 
 [[education.courses]]
-  course = "Master's of Science and Engineering - MSE, Applied Mathematics and Statistics"
-  institution = " The Johns Hopkins University"
+  course = "Bachelor's Degree in Mathematics"
+  institution = "University of Nevada, Reno"
   year = 2019
   
 [[education.courses]]
-  course = "Bachelor's Degree in Applied Mathematics"
-  institution = "China University of Mining and Technology"
-  year = 2018
+  course = "Bachelor's Degree in Neuroscience"
+  institution = "University of Nevada, Reno"
+  year = 2019
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
@@ -46,12 +46,12 @@ user_groups = ["OCS Alumni"]
 [[social]]
   icon = "envelope"
   icon_pack = "fas"
-  link = "mailto:kwang63@jhu.edu" # For a direct email link, use "mailto:test@example.org".
+  link = "mailto:qmeng11@jhmi.edu" # For a direct email link, use "mailto:test@example.org".
 
 [[social]]
   icon = "linkedin"
   icon_pack = "fab"
-  link = "http://127.0.0.1:7552/authors/kwang/"
+  link = "https://www.linkedin.com/in/qier-meng-41769a194/"
   
 
 # [[social]]
@@ -78,4 +78,4 @@ user_groups = ["OCS Alumni"]
 
 +++
 
-Kexin (Sheena) Wang. Sheena obtained her Master of Science in Engineering degree in [Applied Mathematics and Statistics](https://engineering.jhu.edu/ams/) at [Johns Hopkins University](https://www.jhu.edu/).
+Qier Meng is working towards an ScM degree in Biostatistics at the [Johns Hopkins Bloomberg School of Public Health](https://www.jhsph.edu).

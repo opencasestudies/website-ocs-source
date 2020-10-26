@@ -9,11 +9,11 @@ authors = ["montiveros"]
 superuser = false
 
 # Role/position
-role = "Research Assistant"
+role = ""
 
 # Organizations/Affiliations
 #    Separate multiple entries with a comma, using the form: [ {name="Org1", url=""}, {name="Org2", url=""} ].
-organizations = [ { name = "Johns Hopkins Bloomberg School of Public Health", url = "https://www.jhsph.edu/" } ]
+organizations = [{name = "CDC Foundation", url = "http://www.cdcfoundation.org/"}, { name = "Johns Hopkins Bloomberg School of Public Health", url = "https://www.jhsph.edu/" } ]
 
 # Short bio (displayed in user profile at end of posts)
 bio = "MHS in Epidemiology graduate student at Johns Hopkins Bloomberg School of Public Health"
@@ -26,7 +26,7 @@ email = "montive3@jhu.edu"
 
 # Organizational groups that you belong to (for People widget)
 # Set this to [] or comment out if you are not using People widget.
-user_groups = ["Research Assistants"]
+user_groups = ["OCS Alumni"]
 
 # List qualifications (such as academic degrees)
  
@@ -74,6 +74,8 @@ user_groups = ["Research Assistants"]
 
 +++
 
-Michael is pursuing a master's degree in [Epidemiology](https://www.jhsph.edu/departments/epidemiology/index.html) at 
+Michael is obtained a master's degree in [Epidemiology](https://www.jhsph.edu/departments/epidemiology/index.html) at 
 at the [Johns Hopkins Bloomberg School of Public Health](https://www.jhsph.edu).
 He is interested in spatial science and its applications in public health.
+
+He is currently a COVID-19 Corps Data Scientist at the CDC Foundation.
