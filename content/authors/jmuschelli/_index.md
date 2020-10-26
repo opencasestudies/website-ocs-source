@@ -10,14 +10,14 @@ superuser = false
 
 
 # Role/position
-role = "Assistant Scientist"
+role = "Associate Scientist"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
 organizations = [ { name = "Johns Hopkins Bloomberg School of Public Health", url = "https://www.jhsph.edu" } ]
 
 # Short bio (displayed in user profile at end of posts)
-bio = "Assistant Scientist at the Johns Hopkins Bloomberg School of Public Health"
+bio = "Associate Scientist at the Johns Hopkins Bloomberg School of Public Health"
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email = "jmusche1@jhu.edu"
