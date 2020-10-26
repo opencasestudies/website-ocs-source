@@ -1,6 +1,6 @@
 +++
 # Display name
-name = "Michael Ontiveros, BS"
+name = "Michael Ontiveros, MHS"
 
 # Username (this should match the folder name)
 authors = ["montiveros"]
@@ -74,8 +74,7 @@ user_groups = ["OCS Alumni"]
 
 +++
 
-Michael is obtained a master's degree in [Epidemiology](https://www.jhsph.edu/departments/epidemiology/index.html) at 
-at the [Johns Hopkins Bloomberg School of Public Health](https://www.jhsph.edu).
+Michael obtained a master's degree in [Epidemiology](https://www.jhsph.edu/departments/epidemiology/index.html) at the [Johns Hopkins Bloomberg School of Public Health](https://www.jhsph.edu).
 He is interested in spatial science and its applications in public health.
 
 He is currently a COVID-19 Corps Data Scientist at the CDC Foundation.
