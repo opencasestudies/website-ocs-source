@@ -473,7 +473,7 @@ a.badge:hover {
 
 /* Based on Bootstrap's `table-responsive` style. */
 table {
-  display: block;
+  display: table;
   width: 100%;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;

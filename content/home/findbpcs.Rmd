@@ -1,0 +1,230 @@
+---
+title: "OCS Search"
+subtitle: "Bloomberg American Health Initiative Sponsored"
+output: html_document
+runtime: shiny
+weight: 3
+---
+
+```{r, include = FALSE}
+#need these maybe to create lists of attributes about the repos:
+#r-on-github - to list functions within repos....etc.
+#gh - to list repos
+#maybe just search websites?
+```
+
+<img src="https://opencasestudies.github.io/img/icon-bahi.png">
+
+```{r, include = FALSE, eval = FALSE}
+library(tidyverse)
+library(magrittr)
+#getting the webpage
+URL_OCS <- c("https://github.com/opencasestudies?tab=repositories")
+webpage <- URL_OCS %>%
+  xml2::read_html() 
+webpage
+
+#selecting mostly just the repoinfo
+webpage_element <- webpage %>%
+  rvest::html_nodes(xpath='//*[contains(concat( " ", @class, " " ), concat( " ", "d-inline-block", " " ))]')
+attrs_ocs <- webpage_element %>%
+  rvest::html_attrs()
+text_ocs <-webpage_element %>%
+  rvest::html_text()
+
+#getting the names of the repos from the GitHUB page
+repo_text<-map_df(attrs_ocs, as_tibble) 
+repo_text %<>% 
+  mutate(is_case_study = str_detect(value, "opencasestudies/ocs")) %>%
+  filter(is_case_study == "TRUE") %>%
+  mutate(is_hovercard = str_detect(value, "hover")) %>%
+  filter(is_hovercard == "FALSE") %>%
+  mutate(case_study_name = str_remove(value, "/opencasestudies/")) %>%
+  mutate(interactive = str_detect(value, "interactive")) %>%
+  filter(interactive == FALSE) %>%
+    select(repo_name = value, case_study_name)
+
+repo_non_bp <- repo_text %>% filter(!str_detect(repo_name, "-bp"))
+repo_bp <- repo_text %>% filter(str_detect(repo_name, "-bp")) %>%
+                          filter(!str_detect(repo_name, "template|right-to-carry|flex"))
+  
+
+```
+
+
+```{r, include = FALSE, eval = FALSE}
+# create table about repo and html location and names for case studies
+OCS_info <- repo_bp %>%
+  tibble(
+    repo_url =  paste0("https://github.com/", repo_name), 
+    case_study_url =  paste0("https://www.opencasestudies.org/", case_study_name))
+```
+
+
+```{r, include = FALSE, eval = FALSE}
+#Get Readmes - one example
+
+URL_readme <-c('https://github.com/opencasestudies/ocs-bp-co2-emissions')
+readme_ex <-xml2::read_html(URL_readme)
+webpage_element <- readme_ex %>%
+        rvest::html_nodes(xpath='//*[contains(concat( " ", @class, " " ), concat( " ", "container-lg", " " ))]')
+text_ocs <- webpage_element %>%
+  rvest::html_text()
+text_ocs %<>% str_split("\n") %>%
+             as_tibble(unlist(.), .name_repair = ~ c("Text"))
+text_ocs %>% mutate(near_title = str_detect(string = Text, pattern = "Title"))
+text_ocs
+```
+
+
+```{r, include = FALSE, eval = FALSE}
+get_readme <- function(URL){
+  xml2::read_html(URL) %>%
+  rvest::html_nodes(xpath='//*[contains(concat( " ", @class, " " ), concat( " ", "container-lg", " " ))]') %>%
+  rvest::html_text()}
+
+URL <- OCS_info$repo_url
+Readmes <-pmap(list(URL), get_readme)
+
+```
+
+```{r, include = FALSE, eval = FALSE}
+get_title <-function(URL){
+  xml2::read_html(URL) %>%
+  rvest::html_nodes(xpath='//*[contains(concat( " ", @class, " " ), concat( " ", "toc-ignore", " " ))]') %>%
+  rvest::html_text()
+}
+
+URL <- OCS_info$case_study_url
+Titles <-pmap(list(URL), get_title)
+Titles %<>% str_remove("Open Case Studies: ") %>%
+  str_remove("Open Case Studies : ") %>%
+  as_tibble()
+
+
+```
+
+```{r, include = FALSE, eval = FALSE}
+
+  URL_readme <-c('https://github.com/opencasestudies/ocs-bp-co2-emissions')
+Packages_used <-  xml2::read_html(URL_readme) %>%
+        rvest::html_nodes(xpath='//td | //th') %>%
+        rvest::html_text() %>%
+  as_tibble(unlist(.), .name_repair = ~c("Packages")) %>%
+  mutate(is_package = !str_detect(Packages, " |Package")) %>% # if there is a space or the word package = FALSE
+  filter(is_package == "TRUE") %>%
+  select(Packages)
+
+Get_packages <-function(URL){
+  xml2::read_html(URL) %>%
+  rvest::html_nodes(xpath='//td | //th') %>%
+  rvest::html_text() %>%
+  as_tibble(unlist(.), .name_repair = ~c("Packages")) %>%
+  mutate(is_package = !str_detect(Packages, " |Package")) %>% # if there is a space or the word package = FALSE
+  filter(is_package == "TRUE") %>%
+  select(Packages)
+}
+
+URL <- OCS_info$repo_url
+Packages<-pmap(list(URL), Get_packages)
+  
+```
+
+```{r, include = FALSE, eval = FALSE}
+#get Data Science objectives
+Readmes[[1]] %>%
+  str_split("\n")
+
+
+  URL_readme <-c('https://github.com/opencasestudies/ocs-bp-co2-emissions')
+Objectives<-  xml2::read_html(URL_readme) %>%
+        rvest::html_nodes(xpath='//li') %>%
+        rvest::html_text()
+
+Obj_and_quest <- Objectives %>% as_tibble() %>%
+  filter(!str_detect(value, "(?<= )\n{2,}|(\n(?=[:space:]))|→")) %>%
+  filter(str_detect(value, "[:space:]")) %>%
+  filter(!str_detect(value, "GitHub|Sales|plans|management|guides|Code review|forum|Lab"))
+
+Questions <- Obj_and_quest %>% filter(str_detect(value, "\\?"))
+Objectives <- Obj_and_quest %>% filter(!str_detect(value, "\\?"))
+
+#create functions to do this:
+get_questions <- function(URL){
+  xml2::read_html(URL) %>%
+        rvest::html_nodes(xpath='//li') %>%
+        rvest::html_text() %>%
+        as_tibble() %>%
+        filter(!str_detect(value, "(?<= )\n{2,}|(\n(?=[:space:]))|→")) %>%
+        filter(str_detect(value, "[:space:]")) %>%
+        filter(!str_detect(value, "GitHub|Sales|plans|management|guides|Code review|forum|Lab"))%>%
+        filter(str_detect(value, "\\?"))%>%
+        mutate(value = str_remove(value, "\n"))
+}
+
+get_objectives <- function(URL){
+  xml2::read_html(URL) %>%
+        rvest::html_nodes(xpath='//li') %>%
+        rvest::html_text() %>%
+        as_tibble() %>%
+        filter(!str_detect(value, "(?<= )\n{2,}|(\n(?=[:space:]))|→")) %>%
+        filter(str_detect(value, "[:space:]")) %>%
+        filter(!str_detect(value, "GitHub|Sales|plans|management|guides|Code review|forum|Lab"))%>%
+        filter(!str_detect(value, "\\?")) %>%
+        mutate(value = str_remove(value, "\n")) %>%
+        filter(!str_detect(value, "Donohue|Lott|Census|Kristen|themagick|compositionsfor|Bureau|A |guide|discussion|Greatvideo|More examples|consciousness|erratic|bluish|limp|snore|clammy|purplish|modifythese|acrossyears|unable to talk|Anexplanation|Alist|cheatsheets|Acourse"))
+}
+```
+
+```{r, include = FALSE, eval = FALSE}
+
+URL <- OCS_info$repo_url
+Questions<-pmap(list(URL), get_questions)
+Objectives <-pmap(list(URL), get_objectives)
+
+
+#Combine all the info
+make_string <- function(vector){
+  toString(pull(vector))
+}
+Packages_again <- pmap(list(OCS_info$packages), make_string) %>% unlist()
+     Obj_again <- pmap(list(OCS_info$objectives), make_string) %>% unlist()
+Questions_again <- pmap(list(OCS_info$questions), make_string) %>% unlist()
+
+OCS_info %<>%
+  mutate(Packages = Packages_again,
+         Title = Titles$value,
+         Questions = Questions_again,
+         Objectives = Obj_again)
+OCS_info %<>%
+  mutate(`GitHub Repository` =  paste0('<a href="',repo_url,'"',' target="_blank"','>',repo_name,"</a>"),
+         `Case Study` =  paste0('<a href="',case_study_url,'"',' target="_blank"','>',Title,"</a>"))
+
+
+save(OCS_info, file = here::here("content", "home", "ocs_info.rda"))
+
+```
+
+
+
+```{r table-display-prep, include = FALSE}
+library(tidyverse)
+library(widgetframe)
+```
+
+
+```{r table-display, echo = FALSE}
+load(file = here::here("content", "home", "ocs_info.rda"))
+OCS_info_table <- OCS_info %>% 
+  select(`Case Study`, `GitHub Repository`, Packages, Objectives)%>%
+  DT::datatable(
+    rownames = FALSE,
+    class = 'cell-border stripe',
+    escape = FALSE,
+    filter = "top",
+    options = list(pageLength = 5)
+  )
+widgetframe::frameWidget(OCS_info_table, width = "100%", height = "100%" )
+```
+
+
