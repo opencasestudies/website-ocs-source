@@ -14,7 +14,7 @@
   weight = 20
 
 [[main]]
-  name = "Sponsored OCS Search"
+  name = "Bloomberg OCS Search"
   url = "#findbpcs"
   weight = 25
 

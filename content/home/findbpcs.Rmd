@@ -205,6 +205,8 @@ OCS_info %<>%
 OCS_info %<>%
   mutate(`GitHub Repository` =  paste0('<a href="',repo_url,'"',' target="_blank"','>',repo_name,"</a>"),
          `Case Study` =  paste0('<a href="',case_study_url,'"',' target="_blank"','>',Title,"</a>"))
+OCS_info %<>% 
+  mutate(Category = '<img src="https://opencasestudies.github.io/img/icon-bahi.png" height="52"> </img>')
 
 
 save(OCS_info, file = here::here("content", "home", "ocs_info.rda"))
@@ -222,7 +224,7 @@ library(widgetframe)
 ```{r table-display, echo = FALSE}
 load(file = here::here("content", "home", "ocs_info.rda"))
 OCS_info_table <- OCS_info %>% 
-  select(`Case Study`, `GitHub Repository`, Packages, Objectives)%>%
+  select(`Case Study`, `GitHub Repository`, Packages, Objectives, Category)%>%
   DT::datatable(
     rownames = FALSE,
     class = 'cell-border stripe',
