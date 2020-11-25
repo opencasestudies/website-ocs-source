@@ -14,10 +14,9 @@
   weight = 20
 
 [[main]]
-  name = "OCS Table Search"
-  url = "#DTtable"
-  weight = 30
-
+  name = "Sponsored OCS Search"
+  url = "#findbpcs"
+  weight = 25
 
 #[[main]]
 #  name = "Data Science search"
@@ -44,6 +43,7 @@
   name = "Team"
   url = "#team"
   weight = 50
+
 
 [[main]]
   name = "Talks"

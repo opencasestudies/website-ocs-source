@@ -222,9 +222,10 @@ OCS_info_table <- OCS_info %>%
     class = 'cell-border stripe',
     escape = FALSE,
     filter = "top",
-    options = list(pageLength = 5)
-  )
-widgetframe::frameWidget(OCS_info_table, width = "100%", height = "100%" )
+    options = list(pageLength = 10, scrollY = TRUE, scrollX= TRUE, scrollCollapse = TRUE), extensions = list("Scroller"))
+
+
+widgetframe::frameWidget(OCS_info_table, width = "100%", height = "50%")
 ```
 
 
