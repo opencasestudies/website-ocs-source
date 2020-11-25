@@ -106,14 +106,15 @@ Titles %<>% str_remove("Open Case Studies: ") %>%
 
 ```{r, include = FALSE, eval = FALSE}
 
-  URL_readme <-c('https://github.com/opencasestudies/ocs-bp-co2-emissions')
+  URL_readme <-c('https://github.com/opencasestudies/ocs-bp-RTC-Wrangling')
 Packages_used <-  xml2::read_html(URL_readme) %>%
         rvest::html_nodes(xpath='//td | //th') %>%
         rvest::html_text() %>%
   as_tibble(unlist(.), .name_repair = ~c("Packages")) %>%
   mutate(is_package = !str_detect(Packages, " |Package")) %>% # if there is a space or the word package = FALSE
   filter(is_package == "TRUE") %>%
-  select(Packages)
+  select(Packages) %>%
+  filter(Packages != "Data")
 
 Get_packages <-function(URL){
   xml2::read_html(URL) %>%
@@ -122,11 +123,16 @@ Get_packages <-function(URL){
   as_tibble(unlist(.), .name_repair = ~c("Packages")) %>%
   mutate(is_package = !str_detect(Packages, " |Package")) %>% # if there is a space or the word package = FALSE
   filter(is_package == "TRUE") %>%
-  select(Packages)
+  select(Packages) %>%
+  filter(Packages != "Data") %>%
+  filter(Packages != "Link") %>%
+  filter(Packages != "link") %>%
+  filter(Packages != "Use")
 }
 
 URL <- OCS_info$repo_url
 Packages<-pmap(list(URL), Get_packages)
+
   
 ```
 
@@ -182,15 +188,15 @@ URL <- OCS_info$repo_url
 Questions<-pmap(list(URL), get_questions)
 Objectives <-pmap(list(URL), get_objectives)
 
-
-#Combine all the info
+#Collapse the individual tibbles into strings
 make_string <- function(vector){
   toString(pull(vector))
 }
-Packages_again <- pmap(list(OCS_info$packages), make_string) %>% unlist()
-     Obj_again <- pmap(list(OCS_info$objectives), make_string) %>% unlist()
-Questions_again <- pmap(list(OCS_info$questions), make_string) %>% unlist()
+Packages_again <- pmap(list(Packages), make_string) %>% unlist()
+     Obj_again <- pmap(list(Objectives), make_string) %>% unlist()
+Questions_again <- pmap(list(Questions), make_string) %>% unlist()
 
+#Combine all the info and make the links with the appropriate names and open in a new tab (target="_blank")
 OCS_info %<>%
   mutate(Packages = Packages_again,
          Title = Titles$value,
