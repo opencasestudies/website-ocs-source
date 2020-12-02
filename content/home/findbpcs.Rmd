@@ -178,7 +178,7 @@ get_objectives <- function(URL){
         filter(!str_detect(value, "GitHub|Sales|plans|management|guides|Code review|forum|Lab"))%>%
         filter(!str_detect(value, "\\?")) %>%
         mutate(value = str_remove(value, "\n")) %>%
-        filter(!str_detect(value, "Donohue|Lott|Census|Kristen|themagick|compositionsfor|Bureau|A |guide|discussion|Greatvideo|More examples|consciousness|erratic|bluish|limp|snore|clammy|purplish|modifythese|acrossyears|unable to talk|Anexplanation|Alist|cheatsheets|Acourse"))
+        filter(!str_detect(value, "Donohue|Lott|Census|Kristen|themagick|compositionsfor|Bureau|A |guide|discussion|Greatvideo|More examples|consciousness|erratic|bluish|limp|snore|clammy|purplish|modifythese|acrossyears|unable to talk|Anexplanation|Alist|cheatsheets|Acourse|http"))
 }
 ```
 
@@ -224,7 +224,7 @@ library(widgetframe)
 ```{r table-display, echo = FALSE}
 load(file = here::here("content", "home", "ocs_info.rda"))
 OCS_info_table <- OCS_info %>% 
-  select(`Case Study`, `GitHub Repository`, Packages, Objectives, Category)%>%
+  select(`Case Study`, `GitHub Repository`, Packages, Objectives)%>%
   DT::datatable(
     rownames = FALSE,
     class = 'cell-border stripe',
