@@ -78,7 +78,7 @@ To address this, we are developing the **Open Case Studies** educational resourc
 
 
 
-[![Open Case Studies Video](https://opencasestudies.github.io/img/video-img.jpeg)](http://www.youtube.com/watch?v=ArOVyMXZaB0 "OCS Video")
+[![Open Case Studies Video](https://opencasestudies.github.io/img/video-icon.jpg)](http://www.youtube.com/watch?v=ArOVyMXZaB0 "OCS Video")
 
 
 
