@@ -49,14 +49,15 @@ subtitle = ""
  
  # CSS class.
  css_class = ""
+ 
 +++
 
 ## What is the Open Case Studies (OCS) project? 
 
 The Open Case Studies project is an educational resource that educators can use in the classroom to teach students how to effectively derive knowledge from data in real-world challenges. 
 
+<img src="https://opencasestudies.github.io/img/icon.png" class="center">
 
-![](img/icon.png)
 
 ## What problem are we addressing? 
 
@@ -77,8 +78,7 @@ To address this, we are developing the **Open Case Studies** educational resourc
 * [Smith College](https://www.tandfonline.com/doi/pdf/10.1080/00031305.2015.1081105)
 
 
-
-[![Open Case Studies Video](https://opencasestudies.github.io/img/video-icon.jpg)](http://www.youtube.com/watch?v=ArOVyMXZaB0 "OCS Video")
+[![Open Case Studies Video](https://opencasestudies.github.io/img/video-icon.jpg#center)](http://www.youtube.com/watch?v=ArOVyMXZaB0 "OCS Video")
 
 
 

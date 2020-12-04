@@ -11,7 +11,7 @@ weight: 3
 #r-on-github - to list functions within repos....etc.
 #gh - to list repos
 #maybe just search websites?
-#<img src="https://opencasestudies.github.io/img/icon-bahi.png">
+
 ```
 
 
