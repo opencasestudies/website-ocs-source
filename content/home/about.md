@@ -55,6 +55,9 @@ subtitle = ""
 
 The Open Case Studies project is an educational resource that educators can use in the classroom to teach students how to effectively derive knowledge from data in real-world challenges. 
 
+
+![](img/icon.png)
+
 ## What problem are we addressing? 
 
 Despite unprecedented and growing interest in data science on campuses, there are few courses and course materials that provide meaningful opportunity for students to learn about real-world challenges. Most courses frequently fail to frame the lectures around a real-world application and provide unrealistically clean datasets that fit the assumptions of the methods in an unrealistic way. The result is that students are left unable to effectively analyze data and solve real-world challenges outside of the classroom.
@@ -72,6 +75,10 @@ To address this, we are developing the **Open Case Studies** educational resourc
 * [Harvard T.H. Chan School of Public Health](http://datasciencelabs.github.io/2016/)
 * [University of California at Berkeley](http://rdatasciencecases.org)
 * [Smith College](https://www.tandfonline.com/doi/pdf/10.1080/00031305.2015.1081105)
+
+
+
+[![Open Case Studies Video](https://opencasestudies.github.io/img/video-img.jpeg)](http://www.youtube.com/watch?v=ArOVyMXZaB0 "OCS Video")
 
 
 

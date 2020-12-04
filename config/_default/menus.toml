@@ -8,13 +8,13 @@
   url = "#about"
   weight = 10
 
-[[main]]
-  name = "Open Case Studies"
-  url = "#ocs"
-  weight = 20
+# [[main]]
+#  name = "Open Case Studies"
+#  url = "#ocs"
+#  weight = 20
 
 [[main]]
-  name = "Bloomberg OCS Search"
+  name = "Open Case Study Search"
   url = "#findbpcs"
   weight = 25
 
@@ -28,10 +28,10 @@
 #  url = "#statsprojects"
 #  weight = 36
 
-[[main]]
-  name = "OCS search"
-  url = "#contextprojects"
-  weight = 37
+#[[main]]
+#  name = "OCS search"
+#  url = "#contextprojects"
+#  weight = 37
 
 [[main]]
   name = "Blog"

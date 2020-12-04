@@ -1,6 +1,6 @@
 ---
-title: "OCS Search"
-subtitle: "Bloomberg American Health Initiative Sponsored"
+title: "Open Case Study Search"
+subtitle: "Find the right open case study for you!"
 output: html_document
 runtime: shiny
 weight: 3
@@ -11,9 +11,9 @@ weight: 3
 #r-on-github - to list functions within repos....etc.
 #gh - to list repos
 #maybe just search websites?
+#<img src="https://opencasestudies.github.io/img/icon-bahi.png">
 ```
 
-<img src="https://opencasestudies.github.io/img/icon-bahi.png">
 
 ```{r, include = FALSE, eval = FALSE}
 library(tidyverse)
@@ -127,7 +127,8 @@ Get_packages <-function(URL){
   filter(Packages != "Data") %>%
   filter(Packages != "Link") %>%
   filter(Packages != "link") %>%
-  filter(Packages != "Use")
+  filter(Packages != "Use") %>% 
+  arrange(Packages)
 }
 
 URL <- OCS_info$repo_url
@@ -206,7 +207,7 @@ OCS_info %<>%
   mutate(`GitHub Repository` =  paste0('<a href="',repo_url,'"',' target="_blank"','>',repo_name,"</a>"),
          `Case Study` =  paste0('<a href="',case_study_url,'"',' target="_blank"','>',Title,"</a>"))
 OCS_info %<>% 
-  mutate(Category = '<img src="https://opencasestudies.github.io/img/icon-bahi.png" height="52"> </img>')
+  mutate(Category = 'Bloomberg American Health Initiative <img src="https://opencasestudies.github.io/img/icon-bahi.png" height="52"> </img>')
 
 
 save(OCS_info, file = here::here("content", "home", "ocs_info.rda"))
@@ -224,7 +225,7 @@ library(widgetframe)
 ```{r table-display, echo = FALSE}
 load(file = here::here("content", "home", "ocs_info.rda"))
 OCS_info_table <- OCS_info %>% 
-  select(`Case Study`, `GitHub Repository`, Packages, Objectives)%>%
+  select(`Case Study`, `GitHub Repository`, Packages, Objectives, Category)%>%
   DT::datatable(
     rownames = FALSE,
     class = 'cell-border stripe',
