@@ -76,9 +76,5 @@ To address this, we are developing the **Open Case Studies** educational resourc
 * [University of California at Berkeley](http://rdatasciencecases.org)
 * [Smith College](https://www.tandfonline.com/doi/pdf/10.1080/00031305.2015.1081105)
 
-
-
-[![Open Case Studies Video](https://opencasestudies.github.io/img/video-icon.jpg#center)](http://www.youtube.com/watch?v=ArOVyMXZaB0 "OCS Video")
-
-
+<p align="center"><iframe width="560"" height="315"" src="https://www.youtube.com/embed/ArOVyMXZaB0"" frameborder="0" allowfullscreen></iframe></p>
 
