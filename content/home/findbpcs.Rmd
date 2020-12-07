@@ -49,6 +49,13 @@ repo_bp <- repo_text %>% filter(str_detect(repo_name, "-bp")) %>%
                           filter(!str_detect(repo_name, "template|right-to-carry|flex"))
   
 
+# run the fist chunk first!
+repo_non_bp
+
+repo_non_bp <- repo_non_bp[1,] # get just the health expenditure case study for now
+
+# add the health expenditure case study to the list
+repo_bp <-rbind(repo_bp, repo_non_bp)
 ```
 
 
@@ -78,13 +85,15 @@ text_ocs
 
 
 ```{r, include = FALSE, eval = FALSE}
-get_readme <- function(URL){
-  xml2::read_html(URL) %>%
-  rvest::html_nodes(xpath='//*[contains(concat( " ", @class, " " ), concat( " ", "container-lg", " " ))]') %>%
-  rvest::html_text()}
+##in case we need something else from the readme
 
-URL <- OCS_info$repo_url
-Readmes <-pmap(list(URL), get_readme)
+# get_readme <- function(URL){
+#   xml2::read_html(URL) %>%
+#   rvest::html_nodes(xpath='//*[contains(concat( " ", @class, " " ), concat( " ", "container-lg", " " ))]') %>%
+#   rvest::html_text()}
+# 
+# URL <- OCS_info$repo_url
+# Readmes <-pmap(list(URL), get_readme)
 
 ```
 
@@ -139,9 +148,6 @@ Packages<-pmap(list(URL), Get_packages)
 
 ```{r, include = FALSE, eval = FALSE}
 #get Data Science objectives
-Readmes[[1]] %>%
-  str_split("\n")
-
 
   URL_readme <-c('https://github.com/opencasestudies/ocs-bp-co2-emissions')
 Objectives<-  xml2::read_html(URL_readme) %>%
@@ -179,11 +185,13 @@ get_objectives <- function(URL){
         filter(!str_detect(value, "GitHub|Sales|plans|management|guides|Code review|forum|Lab"))%>%
         filter(!str_detect(value, "\\?")) %>%
         mutate(value = str_remove(value, "\n")) %>%
-        filter(!str_detect(value, "Donohue|Lott|Census|Kristen|themagick|compositionsfor|Bureau|A |guide|discussion|Greatvideo|More examples|consciousness|erratic|bluish|limp|snore|clammy|purplish|modifythese|acrossyears|unable to talk|Anexplanation|Alist|cheatsheets|Acourse|http"))
+        filter(!str_detect(value, "Donohue|Lott|Census|Kristen|themagick|compositionsfor|Bureau|A |guide|discussion|Greatvideo|More examples|consciousness|erratic|bluish|limp|snore|clammy|purplish|modifythese|acrossyears|unable to talk|Anexplanation|Alist|cheatsheets|Acourse|http|Health Insurance|Health Care"))
 }
 ```
 
 ```{r, include = FALSE, eval = FALSE}
+
+library(magrittr)
 
 URL <- OCS_info$repo_url
 Questions<-pmap(list(URL), get_questions)
@@ -207,13 +215,12 @@ OCS_info %<>%
   mutate(`GitHub Repository` =  paste0('<a href="',repo_url,'"',' target="_blank"','>',repo_name,"</a>"),
          `Case Study` =  paste0('<a href="',case_study_url,'"',' target="_blank"','>',Title,"</a>"))
 OCS_info %<>% 
-  mutate(Category = 'Bloomberg American Health Initiative <img src="https://opencasestudies.github.io/img/icon-bahi.png" height="52"> </img>')
+  mutate(Category = case_when(str_detect(string = case_study_name, pattern = "bp") ~ 'Bloomberg American Health Initiative <img src="https://opencasestudies.github.io/img/icon-bahi.png" height="52"> </img>', TRUE ~ 'General <img src="https://opencasestudies.github.io/img/icon.png" height="52"> </img>' ))
 
 
 save(OCS_info, file = here::here("content", "home", "ocs_info.rda"))
 
 ```
-
 
 
 ```{r table-display-prep, include = FALSE}
