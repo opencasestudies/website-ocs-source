@@ -8,6 +8,11 @@
   url = "#about"
   weight = 10
 
+[[main]]
+  name = "Survey"
+  url = "#survey"
+  weight = 20
+
 # [[main]]
 #  name = "Open Case Studies"
 #  url = "#ocs"
