@@ -1,5 +1,5 @@
 ---
-title: OCS work featured in JHU Hub!
+title: OCS work featured in JHU Hub
 author: Carrie Wright
 date: '2020-10-08'
 slug: Hub

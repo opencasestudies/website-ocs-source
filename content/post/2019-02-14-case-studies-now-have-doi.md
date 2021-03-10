@@ -1,5 +1,5 @@
 ---
-title: Open Case Studies now have DOIs for citations!
+title: Open Case Studies now have DOIs for citations
 author: Stephanie Hicks
 date: '2019-02-14'
 slug: case-studies-now-have-doi

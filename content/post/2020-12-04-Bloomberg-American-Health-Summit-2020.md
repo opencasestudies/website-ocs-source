@@ -1,5 +1,5 @@
 ---
-title: OCS to be featured at the Bloomberg American Health Summit 2020!
+title: OCS to be featured at the Bloomberg American Health Summit 2020
 author: Carrie Wright
 date: '2020-12-04'
 slug: ocs-featured-at-bloomberg-american-health-summit

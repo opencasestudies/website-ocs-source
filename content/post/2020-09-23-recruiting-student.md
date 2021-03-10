@@ -1,5 +1,5 @@
 ---
-title: Looking for a Student to Join the OCS Team!
+title: Looking for a Student to Join the OCS Team
 author: Carrie Wright
 date: '2020-09-23'
 slug: recruiting-student
