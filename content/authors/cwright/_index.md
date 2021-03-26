@@ -9,14 +9,14 @@ authors = ["cwright"]
 superuser = false
 
 # Role/position
-role = "Research Associate"
+role = "Assistant Scientist"
 
 # Organizations/Affiliations
 #    Separate multiple entries with a comma, using the form: [ {name="Org1", url=""}, {name="Org2", url=""} ].
 organizations = [ { name = "Johns Hopkins Bloomberg School of Public Health", url = "https://www.jhsph.edu/" }, { name = "mirtop", url = "https://mirtop.netlify.com/" },{ name = "Johns Hopkins Data Science Lab", url = "https://jhudatascience.org/" } ]
 
 # Short bio (displayed in user profile at end of posts)
-bio = "Research Associate at the Johns Hopkins Bloomberg School of Public Health."
+bio = "Assistant Scientist at the Johns Hopkins Bloomberg School of Public Health."
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email = "cwrigh60@jh.edu"
@@ -87,6 +87,6 @@ user_groups = ["Faculty"]
 
 +++
 
-  Carrie is a Research Associate in the [Biostatistics Department](https://www.jhsph.edu/departments/biostatistics/index.html)
+  Carrie is an Assistant Scientist in the [Biostatistics Department](https://www.jhsph.edu/departments/biostatistics/index.html)
 at the [Johns Hopkins Bloomberg School of Public Health](https://www.jhsph.edu) 
 where she creates data science education material for the open case study project and for the [Johns Hopkins Data Science Lab](https://jhudatascience.org/).She is also a co-founder of the [LIBD rstats club](http://research.libd.org/rstatsclub/#.XKVLJetKi50).
