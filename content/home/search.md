@@ -8,7 +8,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 9  # Order that this section will appear.
 
-title = "Open Case Study Search Tool"
+title = "Open Case Study Search"
 subtitle = ""
 
 [design]
@@ -54,6 +54,6 @@ subtitle = ""
 
 Find the right open case study for you!
 
-<p align="center" ><iframe src="https://www.opencasestudies.org/OCS_search/", width="1200" height="1900" allowfullscreen</iframe></p>
+<p align="center" ><iframe src="https://www.opencasestudies.org/OCS_search/" width="1200" height="1900" </iframe></p>
 
 
