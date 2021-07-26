@@ -6,7 +6,7 @@
 widget = "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 40  # Order that this section will appear.
+weight = 9  # Order that this section will appear.
 
 title = "Open Case Study Search Tool"
 subtitle = ""
@@ -54,5 +54,6 @@ subtitle = ""
 
 Find the right open case study for you!
 
-<p align="center" ><iframe src="https://www.opencasestudies.org/OCS_search/", width="1000" height="1000" allowfullscreen</iframe></p>
+<p align="center" ><iframe src="https://www.opencasestudies.org/OCS_search/", width="1200" height="1900" allowfullscreen</iframe></p>
+
 

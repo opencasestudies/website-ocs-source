@@ -6,17 +6,14 @@
 [[main]]
   name = "About"
   url = "#about"
-  weight = 10
+  weight = 1
 
 [[main]]
   name = "Survey"
   url = "#survey"
-  weight = 20
+  weight = 3
 
-# [[main]]
-#  name = "Open Case Studies"
-#  url = "#ocs"
-#  weight = 20
+
 
 #[[main]]
 #  name = "Open Case Study Search"
@@ -26,7 +23,7 @@
 [[main]]
   name = "Open Case Study Search"
   url = "#search"
-  weight = 30
+  weight = 90
 
 #[[main]]
 #  name = "Data Science search"
@@ -43,6 +40,11 @@
 #  url = "#contextprojects"
 #  weight = 37
 
+#[[main]]
+# name = "Open Case Studies"
+# url = "#ocs"
+# weight = 50
+
 [[main]]
   name = "Blog"
   url = "#posts"
@@ -58,12 +60,12 @@
 [[main]]
   name = "Talks"
   url = "#talks"
-  weight = 55
+  weight = 70
 
 [[main]]
   name = "Contact"
   url = "#contact"
-  weight = 60
+  weight = 80
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
