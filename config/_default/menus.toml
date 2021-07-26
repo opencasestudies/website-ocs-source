@@ -18,10 +18,15 @@
 #  url = "#ocs"
 #  weight = 20
 
+#[[main]]
+#  name = "Open Case Study Search"
+#  url = "#findbpcs"
+#  weight = 25
+
 [[main]]
   name = "Open Case Study Search"
-  url = "#findbpcs"
-  weight = 25
+  url = "#search"
+  weight = 30
 
 #[[main]]
 #  name = "Data Science search"

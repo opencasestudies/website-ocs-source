@@ -191,9 +191,7 @@ DT::datatable(
   class = 'cell-border stripe',
   filter = 'top',
   escape = FALSE,
-  options = list(pageLength = 5)
-  )
-
+  
 widgetframe::frameWidget(args)
 ```
 
