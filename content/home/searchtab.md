@@ -6,9 +6,9 @@
 widget = "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 10  # Order that this section will appear.
+weight = 9  # Order that this section will appear.
 
-title = ""
+title = "Open Case Study Search"
 subtitle = ""
 
 [design]
@@ -22,12 +22,11 @@ subtitle = ""
   #   Any HTML color name or Hex value is valid.
 
   # Background color.
-  color = "#810541"
   # color = "#D3D3D3"
-  # color = "#481567FF"
+   #color = "#481567FF"
    #color= "#481567FF"
    #color = "#35B779FF"
-  # color = "#238A8DFF"
+   #color = "#238A8DFF"
    
   # Background gradient.
  # gradient_start = "DarkGreen"
@@ -52,9 +51,8 @@ subtitle = ""
  css_class = ""
  
 +++
-   
-   
 
-<p align="center" ><iframe src="https://www.opencasestudies.org/OCS_search/" width="1200" height="1900" </iframe></p>
+Find the right open case study for you!
+
 
 

@@ -66,8 +66,13 @@
 
 [[main]]
   name = "Open Case Study Search"
-  url = "#search"
-  weight = 90
+  url = "#searchtab"
+  weight = 85
+
+#[[main]]
+#  name = "Open Case Study Search"
+#  url = "#search"
+#  weight = 90
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
