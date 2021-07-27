@@ -21,6 +21,8 @@ autolink = true
 
 <!-- modify this form HTML and place wherever you want your form -->
 
+
+
 <form
   action="https://formspree.io/f/myybqzpz"
   method="POST"
@@ -40,5 +42,6 @@ autolink = true
   
 </form>
 
-<p align="center" ><script align="center" type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=080808&w=394&t=tt&d=byMgjAbECzf1XoXBfG8baOV7aUkNOaXNVK7Ej0gkdJE&co=ffffff&cmn=3acca9&cmo=9f53ff&ct=808080"></script> </p>
+
+
 
