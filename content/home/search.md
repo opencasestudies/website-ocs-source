@@ -55,6 +55,6 @@ subtitle = ""
    
    
 
-<p align="center" ><iframe src="https://www.opencasestudies.org/OCS_search/" width="1200" height="1900" </iframe></p>
+<p style="margin-right: .5em"; align="center" ><iframe src="https://www.opencasestudies.org/OCS_search/" width="1200" height="1900" </iframe></p>
 
 
