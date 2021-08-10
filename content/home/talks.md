@@ -71,6 +71,9 @@ subtitle = ""
 
 ### 2021
 
+- [Open Case Studies: An Experiential Lesson Guide Delivery Platform](https://provost.jhu.edu/about/digital-initiatives/delta-symposium/)
+Wright, Carrie and Breshock, Michael and Qier, Meng. Johns Hopkins University Provost’s Teaching with Technology DELTA Symposium. 2021 May 4th. Baltimore MD. USA. (Virtual)
+
 - [Addressing Open Challenges in Data Science Education](https://docs.google.com/presentation/d/1ueWL8XDlifDTsPlAG8lhPx37zzm1YlGKeaNu6gf8CXk/edit?usp=sharing). Hicks, Stephanie. Department of Statistics, University of British Columbia. 2021 Feb 9. Vancouver, BC. Canada. (Virtual).
 
 ### 2020
