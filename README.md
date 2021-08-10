@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # [Academic Kickstart](https://sourcethemes.com/academic/)
 
 **Academic** makes it easy to create a beautiful website for free using Markdown, Jupyter, or RStudio. Customize anything on your site with widgets, themes, and language packs. [Check out the latest demo](https://academic-demo.netlify.com/) of what you'll get in less than 10 minutes, or [view the showcase](https://sourcethemes.com/academic/#expo).
@@ -47,4 +47,3 @@ Open Case Studies
 
 * GitHub repository with all case studies: [https://github.com/opencasestudies](https://github.com/opencasestudies). 
 
->>>>>>> 4a04b86153c28cd6e8ae21ca588419539ece42e4
