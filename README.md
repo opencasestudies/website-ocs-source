@@ -47,3 +47,4 @@ Open Case Studies
 
 * GitHub repository with all case studies: [https://github.com/opencasestudies](https://github.com/opencasestudies). 
 
+Note that the DT search table is hosted at this URL (http://www.opencasestudies.org/OCS_search/) from a separate repo: https://github.com/opencasestudies/OCS_search
