@@ -27,7 +27,10 @@ div.blackbox{
   min-height: 120px;
   background-color: #BDB76B;
   color: black;
+}
 
+span.pre {
+  white-space: pre;
 }
 
 a.button:link, a.button:visited {
