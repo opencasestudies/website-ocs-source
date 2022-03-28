@@ -13,3 +13,33 @@ img[src*='#center'] {
     display: block;
     margin: auto;
 }
+
+
+div.blackbox{
+  border: 4px #000000;
+  border-style: solid;
+  padding: 1em;
+  margin: 1em 0;
+  text-align: center;
+  background-size: 70px;
+  background-repeat: no-repeat;
+  background-position: 15px center;
+  min-height: 120px;
+  background-color: #BDB76B;
+  color: black;
+
+}
+
+a.button:link, a.button:visited {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.button:hover, a.button:active {
+  background-color: darkred;
+  color: red;
+}

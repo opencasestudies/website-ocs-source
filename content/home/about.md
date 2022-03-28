@@ -56,18 +56,28 @@ subtitle = ""
 
 The Open Case Studies project is an educational resource of experiential guides that demonstrate how to effectively derive knowledge from data in real-world challenges. 
 
+
+
+All case studies can be found in our [search tool](https://www.opencasestudies.org/#searchtab).
+
+
+
+<img src="https://opencasestudies.github.io/img/icon.png" class = center> 
+
 Our case studies can be used:
 
 - by educators to help them teach
 - by students to help them with their classes
 - by independent learners to help them learn
 
-Learn more about the project using our guide:
+<div class ="blackbox">
+Learn more about the OCS project using our guide:
 
-- [HTML version](https://www.opencasestudies.org/OCS_Guide)
-- [PDF, EPUB, MOBI, and EPUB versions on Leanpub](https://leanpub.com/opencasestudies_guide)
+<a class ="button" href="https://www.opencasestudies.org/OCS_Guide">Website version</a>
+<a class = "button" href="https://leanpub.com/opencasestudies_guide"> PDF version and more</a>
+</div>
 
-<img src="https://opencasestudies.github.io/img/icon.png" class = center> 
+
 
 ## What problem are we addressing? 
 
