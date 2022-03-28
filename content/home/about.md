@@ -71,10 +71,14 @@ Our case studies can be used:
 - by independent learners to help them learn
 
 <div class ="blackbox">
-Learn more about the OCS project using our guide:
+Learn more about the OCS project and how to use our case studies using our guide:
 
-<a class ="button" href="https://www.opencasestudies.org/OCS_Guide">Website version</a>
+<span class = "pre">
+<a class ="button" href="https://www.opencasestudies.org/OCS_Guide">Website version</a></span>
 <a class = "button" href="https://leanpub.com/opencasestudies_guide"> PDF version and more</a>
+
+
+
 </div>
 
 
