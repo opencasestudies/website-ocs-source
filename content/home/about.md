@@ -54,7 +54,18 @@ subtitle = ""
 
 ## What is the Open Case Studies (OCS) project? 
 
-The Open Case Studies project is an educational resource that educators can use in the classroom to teach students how to effectively derive knowledge from data in real-world challenges. 
+The Open Case Studies project is an educational resource of experiential guides that demonstrate how to effectively derive knowledge from data in real-world challenges. 
+
+Our case studies can be used:
+
+- by educators to help them teach
+- by students to help them with their classes
+- by independent learners to help them learn
+
+Learn more about the project using our guide:
+
+- [HTML version](https://www.opencasestudies.org/OCS_Guide)
+- [PDF, EPUB, MOBI, and EPUB versions on Leanpub](https://leanpub.com/opencasestudies_guide)
 
 <img src="https://opencasestudies.github.io/img/icon.png" class = center> 
 
@@ -75,6 +86,7 @@ To address this, we are developing the **Open Case Studies** educational resourc
 * [Harvard T.H. Chan School of Public Health](http://datasciencelabs.github.io/2016/)
 * [University of California at Berkeley](http://rdatasciencecases.org)
 * [Smith College](https://www.tandfonline.com/doi/pdf/10.1080/00031305.2015.1081105)
+
 
 
 <p align="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/DgzBSOY5Yc8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
