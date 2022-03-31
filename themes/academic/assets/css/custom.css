@@ -43,6 +43,7 @@ a.button:link, a.button:visited {
 }
 
 a.button:hover, a.button:active {
-  background-color: darkred;
+  background-color:
+#440154;
   color: red;
 }

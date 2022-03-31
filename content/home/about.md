@@ -58,7 +58,7 @@ The Open Case Studies project is an educational resource of experiential guides 
 
 
 
-All case studies can be found in our [search tool](https://www.opencasestudies.org/#searchtab).
+All case studies can be found in our <a class ="button" href="https://www.opencasestudies.org/#searchtab">OCS search tool</a>
 
 
 
