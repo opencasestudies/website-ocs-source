@@ -69,6 +69,10 @@ subtitle = ""
  css_class = ""
 +++
 
+### 2022
+
+- [Case studies to community engagement: Bringing hands-on data science experiences to the classroom](https://docs.google.com/presentation/d/1rN1oNZ-On4vuPanktF-HVQcS_Fr3mSqKu6pcxfwsgJI/edit?usp=sharing) [International Chinese Statistical Association (ICSA)](https://www.icsa.org/). 2022 June, 20th. Gainesville, Florida.
+
 ### 2021
 
 - [Open Case Studies: An Experiential Lesson Guide Delivery Platform](https://provost.jhu.edu/about/digital-initiatives/delta-symposium/)
