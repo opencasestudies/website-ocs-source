@@ -13,7 +13,7 @@ role = "Senior Staff Scientist"
 
 # Organizations/Affiliations
 #    Separate multiple entries with a comma, using the form: [ {name="Org1", url=""}, {name="Org2", url=""} ].
-organizations = [ { name = "Fred Hutchinson Cancer Center", url =  "https://hutchdatascience.org/" }, {name = "Fred Hutchinson Data Science Lab", url = "https://www.fredhutch.org/" }{ name = "Johns Hopkins Bloomberg School of Public Health", url = "https://www.jhsph.edu/" }, { name = "mirtop", url = "https://mirtop.netlify.com/" },{ name = "Johns Hopkins Data Science Lab", url = "https://jhudatascience.org/" } ]
+organizations = [ { name = "Fred Hutchinson Cancer Center", url =  "https://hutchdatascience.org/" }, {name = "Fred Hutchinson Data Science Lab", url = "https://www.fredhutch.org/" },{ name = "Johns Hopkins Bloomberg School of Public Health", url = "https://www.jhsph.edu/" },{ name = "mirtop", url = "https://mirtop.netlify.com/" },{ name = "Johns Hopkins Data Science Lab", url = "https://jhudatascience.org/" } ]
 
 # Short bio (displayed in user profile at end of posts)
 bio = "Senior Staff Scientist at the Fred Hutchinson Cancer Center and affiliated faculty member at the Johns Hopkins Bloomberg School of Public Health."
