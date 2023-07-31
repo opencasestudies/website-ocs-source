@@ -69,12 +69,18 @@ subtitle = ""
  css_class = ""
 +++
 
+### 2023
+
+- [Reimagining Research Training Through Holistic Data Science Education](https://docs.google.com/presentation/d/1ydwawEhVnJoIqr4wejmxEcwU5O2ba7SvQq2B_WlR628/edit?usp=sharing) [University of Washington Department of Biostatistics Seminar](https://www.biostat.washington.edu/). Wright, Carrie. 2023 May 4th. Seattle, WA. USA. (Virtual).
+
+### 2022
+
+- [Case studies to community engagement: Bringing hands-on data science experiences to the classroom](https://docs.google.com/presentation/d/1rN1oNZ-On4vuPanktF-HVQcS_Fr3mSqKu6pcxfwsgJI/edit?usp=sharing) [International Chinese Statistical Association (ICSA)](https://www.icsa.org/). Wright, Carrie. 2022 June 20th. Gainesville, Florida.
+
 ### 2021
 
 - [Open Case Studies: An Experiential Lesson Guide Delivery Platform](https://provost.jhu.edu/about/digital-initiatives/delta-symposium/)
-Wright, Carrie and Breshock, Michael and Qier, Meng. Johns Hopkins University Provost’s Teaching with Technology DELTA Symposium. 2021 May 4th. Baltimore MD. USA. (Virtual) See a recording [here](https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ec557885-db08-46f0-b187-ad49015cf513).
-
-
+Wright, Carrie and Breshock, Michael and Qier, Meng. Johns Hopkins University Provost’s Teaching with Technology DELTA Symposium. 2021 May 4th. Baltimore, MD. USA. (Virtual) See a recording [here](https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ec557885-db08-46f0-b187-ad49015cf513).
 
 - [Addressing Open Challenges in Data Science Education](https://docs.google.com/presentation/d/1ueWL8XDlifDTsPlAG8lhPx37zzm1YlGKeaNu6gf8CXk/edit?usp=sharing). Hicks, Stephanie. Department of Statistics, University of British Columbia. 2021 Feb 9. Vancouver, BC. Canada. (Virtual).
 
