@@ -45,6 +45,8 @@ Released under the [MIT](https://github.com/sourcethemes/academic-kickstart/blob
 Open Case Studies 
 ==================
 
-* GitHub repository with all case studies: [https://github.com/opencasestudies](https://github.com/opencasestudies). 
+* GitHub organization with all case study repositories: [https://github.com/opencasestudies](https://github.com/opencasestudies). 
 
 Note that the DT search table is hosted at this URL (http://www.opencasestudies.org/OCS_search/) from a separate repo: https://github.com/opencasestudies/OCS_search
+
+The html code used is located within the `layouts/shortcodes` directory and added to the markdown files within the `content/home/` directory using `{{<>}}` labels. The `config/_default` directory has the files for the overall layout of the site. Use `hugo server` to preview what the website looks like before pushing to the repo. Follow this by `hugo` to generate any additional files to be added to the `public` directory. The `public` directory is a submodule that points to a different repo that the final changes to the website are pushed to if you commit and push changes to that directory. That repo lives at: https://github.com/opencasestudies/opencasestudies.github.io. If you have challenges look at the [hugo documentation](https://gohugo.io/) for any updates. This is typically why things may not be working as expected.
