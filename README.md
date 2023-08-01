@@ -45,7 +45,7 @@ Released under the [MIT](https://github.com/sourcethemes/academic-kickstart/blob
 Open Case Studies 
 ==================
 
-* GitHub repository with all case studies: [https://github.com/opencasestudies](https://github.com/opencasestudies). 
+* GitHub organization with all case study repositories: [https://github.com/opencasestudies](https://github.com/opencasestudies). 
 
 Note that the DT search table is hosted at this URL (http://www.opencasestudies.org/OCS_search/) from a separate repo: https://github.com/opencasestudies/OCS_search
 
