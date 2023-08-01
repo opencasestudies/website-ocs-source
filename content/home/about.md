@@ -58,10 +58,10 @@ The Open Case Studies project is an educational resource of experiential guides 
 
 
 
-All case studies can be found in our <a class ="button" href="https://www.opencasestudies.org/#searchtab">OCS search tool</a>
+All case studies can be found in our {{< mybutton >}}.
 
 
-{{<figure src = https://opencasestudies.github.io/img/icon.png>}}
+{{< figure src = https://opencasestudies.github.io/img/icon.png >}}
 <!-- <img src="https://opencasestudies.github.io/img/icon.png" class = center> -->
 
 Our case studies can be used:
@@ -70,16 +70,8 @@ Our case studies can be used:
 - by students to help them with their classes
 - by independent learners to help them learn
 
-<div class ="blackbox">
-Learn more about the OCS project and how to use our case studies using our guide:
+{{< guidebox >}}
 
-<span class = "pre">
-<a class ="button" href="https://www.opencasestudies.org/OCS_Guide">Website version</a></span>
-<a class = "button" href="https://leanpub.com/opencasestudies_guide"> PDF version and more</a>
-
-
-
-</div>
 
 
 
@@ -101,12 +93,14 @@ To address this, we are developing the **Open Case Studies** educational resourc
 * [University of California at Berkeley](http://rdatasciencecases.org)
 * [Smith College](https://www.tandfonline.com/doi/pdf/10.1080/00031305.2015.1081105)
 
-{{< youtube DgzBSOY5Yc8 >}}
+{{< youtubemyway >}}
 
-<!-- <p align="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/DgzBSOY5Yc8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p> -->
 
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
+
+{{< googleanalytics >}}
+
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-1YK70D50NP"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
