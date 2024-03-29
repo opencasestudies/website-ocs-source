@@ -69,13 +69,19 @@ subtitle = ""
  css_class = ""
 +++
 
+### 2024
+
+- [Exploring initiatives to promote more comprehensive data science and statistical education](https://docs.google.com/presentation/d/1GpwNqoEYbDK2xN_u4WoOFJAB9mDBCuOhhXu0NzsBy18/edit?usp=sharing).[The University of Texas at Austin, Depeartment of Statistics and Data Sciences](https://stat.utexas.edu/), Austin, Texas, USA.
+
 ### 2023
 
-- [Reimagining Research Training Through Holistic Data Science Education](https://docs.google.com/presentation/d/1ydwawEhVnJoIqr4wejmxEcwU5O2ba7SvQq2B_WlR628/edit?usp=sharing) [University of Washington Department of Biostatistics Seminar](https://www.biostat.washington.edu/). Wright, Carrie. 2023 May 4th. Seattle, WA. USA. (Virtual).
+- Problem-forward Statistics and Data Science to Improve Human Health. Myrto Lefkopoulou Distinguished Lectureship. Harvard T. H. Chan School of Public Health.  ([https://www.hsph.harvard.edu/biostatistics/myrto-award/](https://www.google.com/url?q=https://www.hsph.harvard.edu/biostatistics/myrto-award/&sa=D&source=docs&ust=1711688897654290&usg=AOvVaw3ZUXEMvFgBrzT0FXeGrmKp)). Hicks, Stephanie, 2023 Sept 21. Boston, MA. USA.
+
+- [Reimagining Research Training Through Holistic Data Science Education](https://docs.google.com/presentation/d/1ydwawEhVnJoIqr4wejmxEcwU5O2ba7SvQq2B_WlR628/edit?usp=sharing). [University of Washington Department of Biostatistics Seminar](https://www.biostat.washington.edu/). Wright, Carrie. 2023 May 4th. Seattle, WA. USA. (Virtual).
 
 ### 2022
 
-- [Case studies to community engagement: Bringing hands-on data science experiences to the classroom](https://docs.google.com/presentation/d/1rN1oNZ-On4vuPanktF-HVQcS_Fr3mSqKu6pcxfwsgJI/edit?usp=sharing) [International Chinese Statistical Association (ICSA)](https://www.icsa.org/). Wright, Carrie. 2022 June 20th. Gainesville, Florida.
+- [Case studies to community engagement: Bringing hands-on data science experiences to the classroom](https://docs.google.com/presentation/d/1rN1oNZ-On4vuPanktF-HVQcS_Fr3mSqKu6pcxfwsgJI/edit?usp=sharing). [International Chinese Statistical Association (ICSA)](https://www.icsa.org/). Wright, Carrie. 2022 June 20th. Gainesville, Florida.
 
 ### 2021
 

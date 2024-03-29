@@ -29,6 +29,21 @@ div.blackbox{
   color: black;
 }
 
+
+div.topic{
+  border: 4px #000000;
+  border-style: solid;
+  padding: 1em;
+  margin: 1em 0;
+  text-align: left;
+  background-size: 70px;
+  background-repeat: no-repeat;
+  background-position: 15px center;
+  min-height: 120px;
+  background-color: #d3d3d3;
+  color: black;
+}
+
 span.pre {
   white-space: pre;
 }

@@ -70,8 +70,11 @@ Our case studies can be used:
 - by students to help them with their classes
 - by independent learners to help them learn
 
+Find out more about how others are using case studies and what they think of them in this  [study](http://jhir.library.jhu.edu/handle/1774.2/66820).
+
 {{< guidebox >}}
 
+{{< topicbox >}}
 
 
 
