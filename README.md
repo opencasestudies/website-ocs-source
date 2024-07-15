@@ -1,3 +1,23 @@
+This repository contains the code for the Open Case Studies Project Website: https://www.opencasestudies.org/ 
+
+To contribute:
+1) Edit the files in the main dir
+2) In terminal run hugo server
+3) In terminal run hugo to check what the site looks like at the url provided
+4) Commit and push your changes
+5) Move to the public directory
+6) Push all changes to this directory
+
+Custom css/html is contained in the layouts/shortcodes files.
+
+For example, the code to embed the search table is within the ocstable.html file within this directory. 
+
+This is then added to the searchtab.md file (inside content/home) like so:
+` {{< ocstable >}}`
+
+The searchtab file is then incorporated into the site by adding it to the config/_default/menus.toml file.
+
+This website was made with the following tools:
 
 # [Academic Kickstart](https://sourcethemes.com/academic/)
 
