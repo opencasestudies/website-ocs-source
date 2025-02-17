@@ -1,7 +1,7 @@
 ---
 title: Welcome Kate Isaac to the OCS team!
 author: Carrie Wright
-date: '2025-2-1'
+date: '2025-02-01'
 slug: Hub
 categories:
   - blog

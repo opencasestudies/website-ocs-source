@@ -1,7 +1,7 @@
 ---
-title: OCS publication
+title: OCS Publishes a New Paper
 author: Carrie Wright
-date: '2024-9-24'
+date: '2024-09-24'
 slug: Hub
 categories:
   - blog
