@@ -1,7 +1,7 @@
 ---
-title: Welcome Kate Isaac to the OCS team!
+title: OCS publication
 author: Carrie Wright
-date: '2025-2-1'
+date: '2024-9-24'
 slug: Hub
 categories:
   - blog
@@ -13,11 +13,5 @@ header:
   preview: yes
 ---
  
-Welcome [Kate Issac](https://opencasestudies.github.io/authors/kisaac/) to the OCS Team!
-
-[Kate](https://opencasestudies.github.io/authors/qmeng/) has recently joined our team as Research Assistants to assit in making a new case study and to help analysis our usage stats!
-
-[Qier](https://opencasestudies.github.io/authors/qmeng/) is a Postdoctoral Fellow in the  [Fred Hutchinson Cancer Center Data Science Lab](https://hutchdatascience.org/).
-
-We are very excited to have Kate help us create a new case study!
+Our team recently published an [article](https://www.tandfonline.com/doi/full/10.1080/26939169.2024.2394541) about OCS in the [Journal of Statistics and Data Science Education](https://doi.org/10.1080/26939169.2024.2394541).
 
