@@ -1,6 +1,6 @@
 +++
 # Display name
-name = "Qier Meng, BS"
+name = "Qier Meng, ScM"
 
 # Username (this should match the folder name)
 authors = ["qmeng"]
@@ -19,15 +19,20 @@ organizations = [ { name = "Johns Hopkins Bloomberg School of Public Health", ur
 bio = " "
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email = "qmeng11@jhmi.edu"
+email = ""
 
 # List (academic) interests or hobbies#interests = [ "Genomics", "Non-coding RNA", "Gene Expression", "R programming", "Biostatistics", "Visualization", "Education" ]
 
 # Organizational groups that you belong to (for People widget)
 # Set this to [] or comment out if you are not using People widget.
-user_groups = ["Research Assistants"]
+user_groups = ["OCS Alumni"]
 
 # List qualifications (such as academic degrees)
+
+[[education.courses]]
+  course = "Master of Science in Biostastistics"
+  institution = "Johns Hopkins Bloomberg School of Public Health"
+  year = 2019
 
 [[education.courses]]
   course = "Bachelor's Degree in Mathematics"
@@ -43,10 +48,10 @@ user_groups = ["Research Assistants"]
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 # For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 # form "mailto:your-email@example.com" or "#contact" for contact widget.
-[[social]]
-  icon = "envelope"
-  icon_pack = "fas"
-  link = "mailto:qmeng11@jhmi.edu" # For a direct email link, use "mailto:test@example.org".
+# [[social]]
+#   icon = "envelope"
+#   icon_pack = "fas"
+#   link = "" # For a direct email link, use "mailto:test@example.org".
 
 [[social]]
   icon = "linkedin"
@@ -78,4 +83,4 @@ user_groups = ["Research Assistants"]
 
 +++
 
-Qier Meng is working towards an ScM degree in Biostatistics at the [Johns Hopkins Bloomberg School of Public Health](https://www.jhsph.edu).
+Qier Meng obtained her ScM degree in Biostatistics at the [Johns Hopkins Bloomberg School of Public Health](https://www.jhsph.edu) while working on OCS.

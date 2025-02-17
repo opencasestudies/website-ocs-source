@@ -26,10 +26,14 @@ email = "lylaatta@jhmi.edu"
 
 # Organizational groups that you belong to (for People widget)
 # Set this to [] or comment out if you are not using People widget.
-user_groups = ["Research Assistants"]
+user_groups = ["OCS Alumni"]
 
 # List qualifications (such as academic degrees)
 
+[[education.courses]]
+  course = "BS in Biological Engineering"
+  institution = "Massachusetts Institute of Technology"
+  year = 2017
 
 
 [[education.courses]]
@@ -42,11 +46,11 @@ user_groups = ["Research Assistants"]
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 # For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 # form "mailto:your-email@example.com" or "#contact" for contact widget.
-[[social]]
-  icon = "envelope"
-  icon_pack = "fas"
-  link = "mailto:lylaatta@jhmi.edu" # For a direct email link, use "mailto:test@example.org".
-  
+# [[social]]
+#   icon = "envelope"
+#   icon_pack = "fas"
+#   link = "mailto:lylaatta@jhmi.edu" # For a direct email link, use "mailto:test@example.org".
+#   
 [[social]]
   icon = "home"
   icon_pack = "fas"
@@ -76,4 +80,4 @@ user_groups = ["Research Assistants"]
 
 +++
 
-Lyla is an MD-PhD candidate at Johns Hopkins University. She is currently pursuing a PhD in Biomedical Engineering in the [JEFworks lab](https://jef.works/). She is interested systems biology and data science and is excited about how computational and mathematical methods can be used to understand complexity in disease. 
+Lyla is an MD-PhD candidate at Johns Hopkins University, who previously worked with OCS. She is currently pursuing a PhD in Biomedical Engineering in the [JEFworks lab](https://jef.works/). She is interested systems biology and data science and is excited about how computational and mathematical methods can be used to understand complexity in disease. 
