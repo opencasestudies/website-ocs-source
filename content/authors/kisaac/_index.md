@@ -13,7 +13,7 @@ role = "Postdoctoral Fellow"
 
 # Organizations/Affiliations
 #    Separate multiple entries with a comma, using the form: [ {name="Org1", url=""}, {name="Org2", url=""} ].
-organizations = [ { name = "Fred Hutchinson Cancer Center", url =  "https://hutchdatascience.org/" }, {name = "Fred Hutchinson Data Science Lab", url = "https://www.fredhutch.org/" }]
+organizations = [ { name = "Fred Hutchinson Cancer Center", url =  "https://www.fredhutch.org/" }, {name = "Fred Hutchinson Data Science Lab", url = "https://hutchdatascience.org/" }]
 
 # Short bio (displayed in user profile at end of posts)
 bio = "Postdoctoral Fellow at the Fred Hutchinson Cancer Center."
@@ -31,19 +31,18 @@ user_groups = ["Research Assistants"]
 # List qualifications (such as academic degrees)
  
 [[education.courses]]
- course = "PhD in Biomedical Sciences"
- institution = "University of New Mexico School of Medicine"
- year = 2014
+ course = "PhD in Cell, Molecular, Developmental Biology, and Biophysics"
+ institution = "Johns Hopkins University"
 
 [[education.courses]]
-  course = "BS in Biology"
-  institution = "University of New Mexico"
-  year = 2009
+  course = "BS in Biochemistry & Molecular Biology"
+  institution = "Bethel University (Mishawaka, IN)"
+ 
   
 [[education.courses]]
-  course = "BA in Chemistry"
-  institution = "University of New Mexico"
-  year = 2009
+  course = "BA in Mathematics"
+  institution = "Bethel University (Mishawaka, IN)"
+
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
