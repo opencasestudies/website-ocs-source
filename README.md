@@ -1,6 +1,7 @@
 This repository contains the code for the Open Case Studies Project Website: https://www.opencasestudies.org/ 
 
 To contribute:
+
 1) Edit the files in the main dir
 2) In terminal run hugo server
 3) In terminal run hugo to check what the site looks like at the url provided
@@ -8,8 +9,18 @@ To contribute:
 5) Move to the public directory
 6) Push all changes to this directory
 
+To add to the blog:
 
-To add custom css/html - there are two options.
+- create a new file in the content/post directory
+
+To add or update an author:
+
+- each author has a directory titled with the first initial followed by last name (for example cwright for Carrie Wright).
+- the image should be called avatar.jpg 
+- the _index.md file contains information about the author what team the author should be listed in according to the content/home/team.md page
+
+
+To add custom css/html - there are two options:
 1) you can use the <rawhtml> tag to allow you to add html:
 
 {{< rawhtml >}}
