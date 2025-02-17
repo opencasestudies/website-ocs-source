@@ -56,4 +56,3 @@ subtitle = ""
 Find the right open case study for you!
 
 
-
