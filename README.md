@@ -12,6 +12,7 @@ To contribute:
 To add to the blog:
 
 - create a new file in the content/post directory
+- ensure that the date has a zero in front of months or days that are less than 2 digits, so that the blog will order posts correctly
 
 To add or update an author:
 
