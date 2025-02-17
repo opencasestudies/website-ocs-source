@@ -8,14 +8,23 @@ To contribute:
 5) Move to the public directory
 6) Push all changes to this directory
 
-Custom css/html is contained in the layouts/shortcodes files.
 
-For example, the code to embed the search table is within the ocstable.html file within this directory. 
+To add custom css/html - there are two options.
+1) you can use the <rawhtml> tag to allow you to add html:
 
-This is then added to the searchtab.md file (inside content/home) like so:
+{{< rawhtml >}}
+<p style="margin-right: .7em"; align="center" ><iframe src="https://www.opencasestudies.org/OCS_search/" width="1200" height="1900" </iframe></p>
+{{< /rawhtml >}}
+
+2)
+Custom css/html can be added in the layouts/shortcodes files.
+
+For example,  (NOTE: this is not currently being used), but one the code to embed the search table is within the ocstable.html file within this directory. 
+
+This could then be added to files inside content/home like so:
 ` {{< ocstable >}}`
 
-The searchtab file is then incorporated into the site by adding it to the config/_default/menus.toml file.
+To add files to the site, adding it to the config/_default/menus.toml file.
 
 This website was made with the following tools:
 
