@@ -53,7 +53,8 @@ subtitle = ""
  
 +++
    
-   
+Find the right open case study for you!
+
 {{< rawhtml >}}
 <p style="margin-right: .7em"; align="center" ><iframe src="https://www.opencasestudies.org/OCS_search/" width="1200" height="1900" </iframe></p>
  <p style="margin-right: .7em"; align="center" ><iframe src="https://www.opencasestudies.org/content/home/pageviews.html" width="1200" height="10" </iframe></p>
